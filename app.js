@@ -9,6 +9,12 @@ const experiments = [
 const map = L.map('map').setView([0, 0], 2);
 L.tileLayer('https://raw.githubusercontent.com/cajohare/AxionLimits/master/plots/Wavy_Map.png').addTo(map);
 
+map.eachLayer(layer => {
+  if (layer instanceof L.Marker) {
+    layer.remove();
+  }
+});
+
 // Add markers for each experiment
 experiments.forEach(experiment => {
   const marker = L.marker(getRandomLatLng()).addTo(map);
