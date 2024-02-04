@@ -23,9 +23,13 @@ const imageUrl = 'https://raw.githubusercontent.com/cajohare/AxionLimits/master/
 const imageBounds = [[-1080, -1920], [1080, 1920]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-// Add markers for each experiment
+// Add custom markers for each experiment
 experiments.forEach((experiment, index) => {
-  const marker = L.marker(getRandomLatLng(), { opacity: 0.7 }).addTo(map);
+  const markerPosition = getRandomLatLng();
+  const coloredTextMarker = createColoredTextMarker(experiment.name, 'red');
+
+  // Create a marker with a custom HTML element as its content
+  const marker = L.marker(markerPosition, { opacity: 0.7, icon: coloredTextMarker }).addTo(map);
   marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
 });
 
@@ -36,6 +40,13 @@ function getRandomLatLng() {
   const lat = (Math.random() * 2160) - 1080;
   const lng = (Math.random() * 3840) - 1920;
   return [lat, lng];
+}
+
+// Function to create a colored text marker
+function createColoredTextMarker(text, color) {
+  const coloredTextDiv = document.createElement('div');
+  coloredTextDiv.innerHTML = `<div style="color: ${color};">${text}</div>`;
+  return L.divIcon({ html: coloredTextDiv.outerHTML, className: 'colored-text-marker' });
 }
 
 // Function to show experiment details
