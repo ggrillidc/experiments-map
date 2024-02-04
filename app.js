@@ -14,6 +14,8 @@ const map = L.map('map', {
   zoomDelta: 0.1,
 }).setView([0, 0], 0);
 
+console.log('Map initialized...');
+
 const imageUrl = 'https://raw.githubusercontent.com/cajohare/AxionLimits/master/plots/Wavy_Map.png';
 const imageBounds = [[-1080, -1920], [1080, 1920]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
@@ -23,6 +25,8 @@ experiments.forEach((experiment, index) => {
   const marker = L.marker(getRandomLatLng(), { opacity: 0.7 }).addTo(map);
   marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
 });
+
+console.log('Markers added...');
 
 // Function to generate random coordinates for markers
 function getRandomLatLng() {
