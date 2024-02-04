@@ -20,15 +20,8 @@ L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 // Add markers for each experiment
 experiments.forEach((experiment, index) => {
-  const marker = L.marker(getRandomLatLng()).addTo(map);
+  const marker = L.marker(getRandomLatLng(), { opacity: 0.7 }).addTo(map);
   marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
-
-  // Create a clickable list of experiment names
-  const experimentList = document.getElementById('experiment-list');
-  const listItem = document.createElement('li');
-  listItem.innerHTML = `<b>${experiment.name}</b> - <span>${experiment.description}</span>`;
-  listItem.addEventListener('click', () => showExperimentDetails(index));
-  experimentList.appendChild(listItem);
 });
 
 // Function to generate random coordinates for markers
