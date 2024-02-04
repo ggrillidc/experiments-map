@@ -5,6 +5,9 @@ const experiments = [
   // Add more experiments as needed
 ];
 
+// Ensure Leaflet is loaded
+console.log('Leaflet version:', L.version);
+
 // Initialize the map with a custom image overlay
 const map = L.map('map', {
   crs: L.CRS.Simple,
