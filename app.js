@@ -5,30 +5,34 @@ const experiments = [
   // Add more experiments as needed
 ];
 
-// Initialize the map
-const map = L.map('map').setView([0, 0], 2);
+// Initialize the map with a custom image overlay
+const map = L.map('map', {
+  crs: L.CRS.Simple,
+  minZoom: -5, // Adjust as needed
+  maxZoom: 5, // Adjust as needed
+  zoomSnap: 0.1,
+  zoomDelta: 0.1,
+}).setView([0, 0], 0);
 
-// Add a custom image overlay
 const imageUrl = 'https://raw.githubusercontent.com/cajohare/AxionLimits/master/plots/Wavy_Map.png';
-//L.tileLayer('https://raw.githubusercontent.com/cajohare/AxionLimits/master/plots/Wavy_Map.png').addTo(map);
-const imageBounds = [[-90, -180], [90, 180]];
+const imageBounds = [[-1080, -1920], [1080, 1920]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-// Set the maximum bounds to restrict panning beyond the image boundaries
-map.setMaxBounds(imageBounds);
-
-// Fit the image to the map bounds
-map.fitBounds(imageBounds);
-
 // Add markers for each experiment
-experiments.forEach(experiment => {
-  const marker = L.marker(getRandomLatLng()).addTo(map);
+experiments.forEach((experiment, index) => {
+  const marker = L.marker(getRandomLatLng(), { opacity: 0.7 }).addTo(map);
   marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
 });
 
 // Function to generate random coordinates for markers
 function getRandomLatLng() {
-  const lat = (Math.random() * 180) - 90;
-  const lng = (Math.random() * 360) - 180;
+  const lat = (Math.random() * 2160) - 1080;
+  const lng = (Math.random() * 3840) - 1920;
   return [lat, lng];
+}
+
+// Function to show experiment details
+function showExperimentDetails(index) {
+  const experiment = experiments[index];
+  alert(`Experiment Name: ${experiment.name}\nDescription: ${experiment.description}\nLink: ${experiment.link}`);
 }
