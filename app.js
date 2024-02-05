@@ -20,7 +20,7 @@ const map = L.map('map', {
 console.log('Map initialized...');
 
 const imageUrl = 'https://raw.githubusercontent.com/cajohare/AxionLimits/master/plots/Wavy_Map.png';
-const imageBounds = [[-540, -960], [540, 960]];
+const imageBounds = [[-600, -1000], [600, 1000]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 // Add custom markers for each experiment
