@@ -40,7 +40,7 @@ const experiments = [
   { name: 'FAST', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-38, 490], color: 'red' },
   { name: 'TASEH', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-75, 530], color: 'green' },
   { name: 'SAPPHIRE', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [32, 450], color: 'blue' },
-  { name: 'ChangE', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [75, 475], color: 'green' },
+  { name: 'ChangE', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [75, 462], color: 'green' },
   { name: 'AMAILS', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [143, 550], color: 'red' },
   { name: 'CAPP', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [80, 655], color: 'green' },
   { name: 'SAPPHIRES', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-15, 630], color: 'green' },
