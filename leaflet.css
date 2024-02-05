@@ -650,22 +650,34 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	border-right-color: #fff;
 	}
 
+@import url(https://db.onlinewebfonts.com/c/d20eb52d29d9f6d56c1c8fc0eefc560e?family=Graphik-Bold);
 
 @font-face {
+	font-family: "Graphik-Bold";
+	src: url("https://db.onlinewebfonts.com/t/d20eb52d29d9f6d56c1c8fc0eefc560e.eot");
+	src: url("https://db.onlinewebfonts.com/t/d20eb52d29d9f6d56c1c8fc0eefc560e.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/d20eb52d29d9f6d56c1c8fc0eefc560e.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/d20eb52d29d9f6d56c1c8fc0eefc560e.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/d20eb52d29d9f6d56c1c8fc0eefc560e.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/d20eb52d29d9f6d56c1c8fc0eefc560e.svg#Graphik-Bold")format("svg");
+}
+
+
+/* @font-face {
 	font-family: 'GraphikBold';
 	/* Specify the desired font name */
-	src: url('fonts/GraphikBold.otf') format('otf');
+	/* src: url('fonts/GraphikBold.otf') format('otf'); */
 		/* Update the path to your font file */
 		/*url('path/to/fonts/YourCustomFont.woff') format('woff');*/
 	/* Add more formats if needed */
-	font-weight: normal;
+	/* font-weight: normal;
 	font-style: normal;
-}
+} */
 
-body {
-	font-family: 'GraphikBold', sans-serif;
+/* body {
+	font-family: 'GraphikBold', sans-serif; */
 	/* Use your custom font as the primary font */
-}
+/* } */ 
 
 /* Printing */
 
