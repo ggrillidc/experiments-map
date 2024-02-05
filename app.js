@@ -1,6 +1,7 @@
 // Sample data (replace with your own data)
 const experiments = [
   { name: 'QUAX', description: 'Description for Experiment 1', link: 'https://experiment1.com', position: [-2, -90], color: 'green'},
+  { name: 'FLASH', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-22, 0], color: 'green' },
   { name: 'DarkSide', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-5, 40], color: 'red' },
   { name: 'XENON', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [15, 60], color: 'red' },
   { name: 'nEDM', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [40, 95], color: 'green' },
@@ -31,7 +32,6 @@ const experiments = [
   { name: 'CADEx', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
   { name: 'AURIGA', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'blue' },
   { name: 'PVLAS', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
-  { name: 'FLASH', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
   { name: 'MAGIC', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
   { name: 'NASDUCK', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
   { name: 'MuDHI', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
