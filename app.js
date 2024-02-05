@@ -20,13 +20,13 @@ const map = L.map('map', {
 console.log('Map initialized...');
 
 const imageUrl = 'https://raw.githubusercontent.com/cajohare/AxionLimits/master/plots/Wavy_Map.png';
-const imageBounds = [[-600, -1000], [600, 1000]];
+const imageBounds = [[-700, -1100], [700, 1100]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 // Add custom markers for each experiment
 experiments.forEach((experiment, index) => {
   const markerPosition = experiment.position;//getRandomLatLng()
-  const coloredTextMarker = createColoredTextMarker(experiment.name, 'red');
+  const coloredTextMarker = createColoredTextMarker(experiment.name, experiment.color);
 
   // Create a marker with a custom HTML element as its content
   const marker = L.marker(markerPosition, { opacity: 0.7, icon: coloredTextMarker }).addTo(map);
