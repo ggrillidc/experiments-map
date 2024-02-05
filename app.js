@@ -1,7 +1,7 @@
 // Sample data (replace with your own data)
 const experiments = [
-  { name: 'QUAX', description: 'Description for Experiment 1', link: 'https://experiment1.com', position: [0,0], color: 'red'},
-  { name: 'DarkSide', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
+  { name: 'QUAX', description: 'Description for Experiment 1', link: 'https://experiment1.com', position: [0, 0], color: 'green'},
+  { name: 'DarkSide', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
   // Add more experiments as needed
 ];
 
@@ -19,8 +19,9 @@ const map = L.map('map', {
 
 console.log('Map initialized...');
 
-const imageUrl = 'https://raw.githubusercontent.com/cajohare/AxionLimits/master/plots/Wavy_Map.png';
-const imageBounds = [[-700, -1100], [700, 1100]];
+// const imageUrl = 'https://raw.githubusercontent.com/cajohare/AxionLimits/master/plots/Wavy_Map.png';
+const imageUrl = 'Wavy_Map.png';
+const imageBounds = [[-500, -900], [500, 900]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 // Add custom markers for each experiment
@@ -47,7 +48,7 @@ function getRandomLatLng() {
 
 // Function to create a bold, colored text marker with fixed font size and type
 function createColoredTextMarker(text, color) {
-  const iconStyle = `color: ${color}; font-size: 16px; font-family: Graphik-Bold;`;
+  const iconStyle = `color: ${color}; font-size: 20px; font-family: Graphik-Bold;`;
   return L.divIcon({ html: `<div style="${iconStyle}">${text}</div>`, className: 'colored-text-marker' });
   // const coloredTextDiv = document.createElement('div');
   // coloredTextDiv.innerHTML = `<div style="color: ${color}; font-size: 14px; font-family: Arial, sans-serif; font-weight: bold;">${text}</div>`;
