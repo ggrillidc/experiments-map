@@ -54,7 +54,7 @@ const experiments = [
   { name: 'SKA', description: 'Description', link: 'https://experiment2.com', position: [-340, 155], color: 'green' },
   { name: 'H.E.S.S.', description: 'Description', link: 'https://experiment2.com', position: [-260, -60], color: 'green' },
   { name: 'SPT', description: 'Description', link: 'https://experiment2.com', position: [-370, -20], color: 'green' },
-  { name: 'BICEP', description: 'Description', link: 'https://experiment2.com', position: [-380, -50], color: 'green' },
+  { name: 'BICEP', description: 'Description', link: 'https://experiment2.com', position: [-390, -30], color: 'green' },
   { name: 'VLT', description: 'Description', link: 'https://experiment2.com', position: [-305, -322], color: 'green' },
   // { name: 'MUSE/VIMOS', description: 'Description', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
   { name: 'POLARBEAR', description: 'Description', link: 'https://experiment2.com', position: [-240, -320], color: 'green' },
