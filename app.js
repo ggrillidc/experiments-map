@@ -1,15 +1,15 @@
 // Sample data (replace with your own data)
 const experiments = [
-  { name: 'QUAX', description: 'Description for Experiment 1', link: 'https://experiment1.com', position: [0, -50], color: 'green'},
-  { name: 'DarkSide', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
-  { name: 'XENON', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
-  { name: 'nEDM', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
-  { name: 'OSQAR', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
-  { name: 'CROWS', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
-  { name: 'CAST', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
-  { name: 'BASE', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
-  { name: 'RADES', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
-  { name: 'FUNK', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
+  { name: 'QUAX', description: 'Description for Experiment 1', link: 'https://experiment1.com', position: [0, -70], color: 'green'},
+  { name: 'DarkSide', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [0, 10], color: 'red' },
+  { name: 'XENON', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [20, 20], color: 'red' },
+  { name: 'nEDM', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [30, 30], color: 'green' },
+  { name: 'OSQAR', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [40, 40], color: 'green' },
+  { name: 'CROWS', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [50, 50], color: 'green' },
+  { name: 'CAST', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [60, 60], color: 'green' },
+  { name: 'BASE', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [70, 70], color: 'green' },
+  { name: 'RADES', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [80, 75], color: 'green' },
+  { name: 'FUNK', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [90, 80], color: 'red' },
   { name: 'JEDI', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
   { name: 'GEO600', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'blue' },
   { name: 'WISPDMX', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
@@ -121,6 +121,9 @@ experiments.forEach((experiment, index) => {
   // marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
 });
 
+// Add a grid overlay
+addGridOverlay(map);
+
 console.log('Markers added...');
 
 // Function to generate random coordinates for markers
@@ -137,6 +140,29 @@ function createColoredTextMarker(text, color) {
   // const coloredTextDiv = document.createElement('div');
   // coloredTextDiv.innerHTML = `<div style="color: ${color}; font-size: 14px; font-family: Arial, sans-serif; font-weight: bold;">${text}</div>`;
   // return L.divIcon({ html: coloredTextDiv.outerHTML, className: 'colored-text-marker' });
+}
+
+// Function to add a grid overlay
+function addGridOverlay(map) {
+  // Define the grid lines
+  const gridLines = [];
+
+  // Vertical lines
+  for (let x = -900; x <= 900; x += 50) {
+    const line = [[-500, x], [500, x]];
+    gridLines.push(line);
+  }
+
+  // Horizontal lines
+  for (let y = -500; y <= 500; y += 50) {
+    const line = [[y, -900], [y, 900]];
+    gridLines.push(line);
+  }
+
+  // Add the grid to the map
+  gridLines.forEach(line => {
+    L.polyline(line, { color: 'gray', weight: 1 }).addTo(map);
+  });
 }
 
 // Function to create a colored text marker
