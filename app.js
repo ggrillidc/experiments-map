@@ -1,7 +1,7 @@
 // Sample data (replace with your own data)
 const experiments = [
-  { name: 'Experiment 1', description: 'Description for Experiment 1', link: 'https://experiment1.com' },
-  { name: 'Experiment 2', description: 'Description for Experiment 2', link: 'https://experiment2.com' },
+  { name: 'QUAX', description: 'Description for Experiment 1', link: 'https://experiment1.com' },
+  { name: 'DarkSide', description: 'Description for Experiment 2', link: 'https://experiment2.com' },
   // Add more experiments as needed
 ];
 

@@ -662,22 +662,16 @@ svg.leaflet-image-layer.leaflet-interactive path {
 		url("https://db.onlinewebfonts.com/t/d20eb52d29d9f6d56c1c8fc0eefc560e.svg#Graphik-Bold")format("svg");
 }
 
-
 /* @font-face {
 	font-family: 'GraphikBold';
-	/* Specify the desired font name */
-	/* src: url('fonts/GraphikBold.otf') format('otf'); */
-		/* Update the path to your font file */
-		/*url('path/to/fonts/YourCustomFont.woff') format('woff');*/
-	/* Add more formats if needed */
-	/* font-weight: normal;
+	src: url('fonts/GraphikBold.woff') format('woff'); 
+	font-weight: normal;
 	font-style: normal;
 } */
 
 /* body {
-	font-family: 'GraphikBold', sans-serif; */
-	/* Use your custom font as the primary font */
-/* } */ 
+	font-family: 'GraphikBold', sans-serif; 
+}  */
 
 /* Printing */
 
