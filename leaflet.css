@@ -652,7 +652,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 
 @font-face {
-	font-family: 'Graphik bold';
+	font-family: 'GraphikBold';
 	/* Specify the desired font name */
 	src: url('fonts/GraphikBold.otf') format('otf');
 		/* Update the path to your font file */
@@ -663,7 +663,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 
 body {
-	font-family: 'Graphik bold', sans-serif;
+	font-family: 'GraphikBold', sans-serif;
 	/* Use your custom font as the primary font */
 }
 
