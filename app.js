@@ -44,7 +44,7 @@ function getRandomLatLng() {
 
 // Function to create a bold, colored text marker with fixed font size and type
 function createColoredTextMarker(text, color) {
-  const iconStyle = `color: ${color}; font-size: 14px; font-family: graphik; font-weight: bold;`;
+  const iconStyle = `color: ${color}; font-size: 14px; font-family: Graphik bold; font-weight: bold;`;
   return L.divIcon({ html: `<div style="${iconStyle}">${text}</div>`, className: 'colored-text-marker' });
   // const coloredTextDiv = document.createElement('div');
   // coloredTextDiv.innerHTML = `<div style="color: ${color}; font-size: 14px; font-family: Arial, sans-serif; font-weight: bold;">${text}</div>`;

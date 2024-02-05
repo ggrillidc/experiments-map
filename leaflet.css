@@ -650,6 +650,23 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	border-right-color: #fff;
 	}
 
+
+@font-face {
+	font-family: 'Graphik bold';
+	/* Specify the desired font name */
+	src: url('fonts/GraphikBold.otf') format('otf');
+		/* Update the path to your font file */
+		/*url('path/to/fonts/YourCustomFont.woff') format('woff');*/
+	/* Add more formats if needed */
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Graphik bold', sans-serif;
+	/* Use your custom font as the primary font */
+}
+
 /* Printing */
 
 @media print {
