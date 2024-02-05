@@ -1,7 +1,7 @@
 // Sample data (replace with your own data)
 const experiments = [
   { name: 'QUAX', description: 'Description for Experiment 1', link: 'https://experiment1.com', position: [-2, -90], color: 'green'},
-  { name: 'FLASH', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-22, 0], color: 'green' },
+  { name: 'FLASH', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-55, 0], color: 'green' },
   { name: 'DarkSide', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-5, 40], color: 'red' },
   { name: 'XENON', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [15, 60], color: 'red' },
   { name: 'nEDM', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [40, 95], color: 'green' },
