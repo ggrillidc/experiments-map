@@ -1,7 +1,7 @@
 // Sample data (replace with your own data)
 const experiments = [
   { name: 'QUAX', description: 'Description for Experiment 1', link: 'https://experiment1.com', position: [-2, -90], color: 'green'},
-  { name: 'FLASH', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-22, -25], color: 'green' },
+  { name: 'FLASH', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-19, -29], color: 'green' },
   { name: 'DarkSide', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-5, 40], color: 'red' },
   { name: 'XENON', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [15, 60], color: 'red' },
   { name: 'nEDM', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [40, 95], color: 'green' },
@@ -31,10 +31,10 @@ const experiments = [
   { name: 'EDELWEISS', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [85, -205], color: 'red' },
   { name: 'CADEx', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [65, -150], color: 'green' },
   { name: 'AURIGA', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [45, -140], color: 'blue' },
-  { name: 'PVLAS', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [25, -110], color: 'green' },
+  { name: 'PVLAS', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [23, -114], color: 'green' },
   { name: 'MAGIC', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-50, -220], color: 'green' },
-  { name: 'NASDUCK', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
-  { name: 'MuDHI', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
+  { name: 'NASDUCK', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [20, 208], color: 'green' },
+  { name: 'MuDHI', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [-70, 280], color: 'red' },
   { name: 'ARGO-YBJ', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'green' },
   { name: 'PandaX', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
   { name: 'FAST', description: 'Description for Experiment 2', link: 'https://experiment2.com', position: [300, 300], color: 'red' },
