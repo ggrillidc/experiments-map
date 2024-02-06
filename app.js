@@ -81,7 +81,7 @@ const experiments = [
   { name: 'DarkSRF', description: 'Description', link: 'link', position: [115, -615], color: 'red' },
   { name: 'LZ', description: 'Description', link: 'link', position: [85, -590], color: 'red' },
   { name: 'SNIPE', description: 'Description', link: 'link', position: [60, -565], color: 'red' },
-  { name: 'Eot-Wash', description: 'Description', link: 'link', position: [200, -650], color: 'blue' },
+  { name: 'E&ouml;t-Wash', description: 'Description', link: 'link', position: [200, -650], color: 'blue' },
   { name: 'ADMX', description: 'Description', link: 'link', position: [187, -720], color: 'green' },
   { name: 'ORPHEUS', description: 'Description', link: 'link', position: [160, -785], color: 'red' },
   { name: 'LIGO', description: 'Description', link: 'link', position: [125, -770], color: 'blue' },
