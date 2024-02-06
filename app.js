@@ -436,90 +436,90 @@ const experiments = [
     description: 'Description',
     link: 'link',
     position: [280, 462],
-    color: 'blue'
+    color: 'green'
   },
   {
     name: 'GNOME',
     description: 'Description',
     link: 'link',
     position: [260, 480],
-    color: 'blue'
+    color: 'green'
   },
   {
     name: 'Chandra',
     description: 'Description',
     link: 'link',
-    position: [340, 655],
-    color: 'blue'
+    position: [370, 645],
+    color: 'green'
   },
   {
     name: 'NuSTAR',
     description: 'Description',
     link: 'link',
-    position: [340, 800],
-    color: 'blue'
+    position: [370, 780],
+    color: 'green'
   },
   {
     name: 'Fermi',
     description: 'Description',
     link: 'link',
-    position: [320, 700],
-    color: 'blue'
+    position: [345, 700],
+    color: 'green'
   },
   {
     name: 'Planck',
     description: 'Description',
     link: 'link',
-    position: [320, 790],
-    color: 'blue'
+    position: [345, 750],
+    color: 'green'
   },
   {
     name: 'INTEGRAL',
     description: 'Description',
     link: 'link',
-    position: [300, 740],
-    color: 'blue'
+    position: [320, 690],
+    color: 'green'
   },
   {
     name: 'XMM-Newton',
     description: 'Description',
     link: 'link',
-    position: [280, 700],
-    color: 'blue'
+    position: [295, 650],
+    color: 'green'
   },
   {
     name: 'eROSITA',
     description: 'Description',
     link: 'link',
-    position: [260, 675],
-    color: 'blue'
+    position: [270, 650],
+    color: 'green'
   },
   {
     name: 'COBE',
     description: 'Description',
     link: 'link',
-    position: [260, 800],
-    color: 'blue'
+    position: [270, 760],
+    color: 'red'
   },
   {
     name: 'HINODE',
     description: 'Description',
     link: 'link',
-    position: [240, 700],
-    color: 'blue'
+    position: [245, 650],
+    color: 'red'
   },
   {
     name: 'LISA',
     description: 'Description',
     link: 'link',
-    position: [240, 840],
+    position: [245, 790],
     color: 'blue'
   },
   {
     name: 'MICROSCOPE',
     description: 'Description',
     link: 'link',
-    position: [220, 700],
+    position: [220, 680],
     color: 'blue'
   },
   // Add more experiments as needed
