@@ -1,6 +1,10 @@
 // Sample data (replace with your own data)
 const experiments = [
-  { name: 'QUAX', description: 'Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description', link: 'https://experiment1.com', position: [-2, -90], color: 'green'},
+  { name: 'QUAX', 
+    description: 'The QUaerere AXions (QUAX) experiment is a direct search for galactic dark matter in the form of axion or axion like particles. Two detectors are being built at Legnaro and Frascati National Laboratories of INFN, and the collaboration includes members from the INFN sections of Padova, Salerno and Trento. Hybrid and dielectric microwave cavities operated in multi- Tesla magnetic fields, coupled to quantum - limited receivers will allow for probing axions with (35 - 45) microeV mass. Research activity is also focused on operation of a ferrimagnetic haloscope, based on the axion - electron interaction. These experiments might in the near future help to put new insights in the understanding of our still very unknown Universe.', 
+    link: 'https://www.pd.infn.it/eng/quax/', 
+    position: [-2, -90], 
+    color: 'green'},
   { name: 'FLASH', description: 'Description', link: 'https://experiment2.com', position: [-19, -29], color: 'green' },
   { name: 'DarkSide', description: 'Description', link: 'https://experiment2.com', position: [-5, 40], color: 'red' },
   { name: 'XENON', description: 'Description', link: 'https://experiment2.com', position: [15, 60], color: 'red' },
