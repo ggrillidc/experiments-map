@@ -99,6 +99,7 @@ const map = L.map('map', {
   maxZoom: 5,
   zoomSnap: 0.1,
   zoomDelta: 0.1,
+  zoomControl: false
 }).setView([0, 0], 0);
 
 console.log('Map initialized...');
@@ -116,10 +117,7 @@ experiments.forEach((experiment, index) => {
   // Create a marker with a custom HTML element as its content
   const marker = L.marker(markerPosition, { opacity: 0.7, icon: coloredTextMarker }).addTo(map);
   marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
-  // const marker = createColoredTextMarker(experiment.position, experiment.color, experiment.name);
-  // marker.addTo(map);
-  // marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
-});
+ });
 
 // Add a grid overlay
 addGridOverlay(map);
@@ -135,11 +133,8 @@ function getRandomLatLng() {
 
 // Function to create a bold, colored text marker with fixed font size and type
 function createColoredTextMarker(text, color) {
-  const iconStyle = `color: ${color}; font-size: 20px; font-family: Graphik-Bold; white-space: nowrap`;
+  const iconStyle = `color: ${color}; font-size: 20px; font-family: Graphik-Bold, sans-serif; white-space: nowrap`;
   return L.divIcon({ html: `<span style="${iconStyle}">${text}</span>`, className: 'colored-text-marker' });
-  // const coloredTextDiv = document.createElement('div');
-  // coloredTextDiv.innerHTML = `<div style="color: ${color}; font-size: 14px; font-family: Arial, sans-serif; font-weight: bold;">${text}</div>`;
-  // return L.divIcon({ html: coloredTextDiv.outerHTML, className: 'colored-text-marker' });
 }
 
 // Function to add a grid overlay
@@ -164,28 +159,6 @@ function addGridOverlay(map) {
     L.polyline(line, { color: 'gray', weight: 1 }).addTo(map);
   });
 }
-
-// Function to create a colored text marker
-// function createColoredTextMarker(position, color, text) {
-//   const markerOptions = {
-//     opacity: 0.7,
-//     color: color,  // Specify the color for each marker
-//   };
-//   const marker = L.circleMarker(position, markerOptions).addTo(map);
-//   const iconStyle = `color: ${color}; font-size: 16px; font-family: Graphik-Bold;`;
-//   // Create a div icon with the specified text
-//   const divIcon = L.divIcon({
-//     className: 'custom-div-icon',
-//     // html: `<div style="color: ${color};">${text}</div>`,
-//     html: `<div style="${iconStyle}">${text}</div>`,
-//     iconSize: [12, 12],
-//   });
-
-//   // Add the div icon to the marker
-//   marker.setIcon(divIcon);
-
-//   return marker;
-// }
 
 // Function to show experiment details
 function showExperimentDetails(index) {
