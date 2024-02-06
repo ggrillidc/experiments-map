@@ -513,14 +513,14 @@ const experiments = [
     description: 'Description',
     link: 'link',
     position: [245, 790],
-    color: 'blue'
+    color: rgba(0, 118, 186, 0.54)
   },
   {
     name: 'MICROSCOPE',
     description: 'Description',
     link: 'link',
     position: [220, 680],
-    color: 'blue'
+    color: rgba(0, 118, 186, 1)
   },
   // Add more experiments as needed
 ];
