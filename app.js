@@ -120,7 +120,7 @@ experiments.forEach((experiment, index) => {
  });
 
 // Add a grid overlay
-addGridOverlay(map);
+// addGridOverlay(map);
 
 console.log('Markers added...');
 
@@ -138,27 +138,27 @@ function createColoredTextMarker(text, color) {
 }
 
 // Function to add a grid overlay
-function addGridOverlay(map) {
+// function addGridOverlay(map) {
   // Define the grid lines
-  const gridLines = [];
+  // const gridLines = [];
 
   // Vertical lines
-  for (let x = -900; x <= 900; x += 50) {
-    const line = [[-500, x], [500, x]];
-    gridLines.push(line);
-  }
+  // for (let x = -900; x <= 900; x += 50) {
+  //   const line = [[-500, x], [500, x]];
+  //   gridLines.push(line);
+  // }
 
   // Horizontal lines
-  for (let y = -500; y <= 500; y += 50) {
-    const line = [[y, -900], [y, 900]];
-    gridLines.push(line);
-  }
+  // for (let y = -500; y <= 500; y += 50) {
+  //   const line = [[y, -900], [y, 900]];
+  //   gridLines.push(line);
+  // }
 
   // Add the grid to the map
-  gridLines.forEach(line => {
-    L.polyline(line, { color: 'gray', weight: 1 }).addTo(map);
-  });
-}
+//   gridLines.forEach(line => {
+//     L.polyline(line, { color: 'gray', weight: 1 }).addTo(map);
+//   });
+// }
 
 // Function to show experiment details
 function showExperimentDetails(index) {
