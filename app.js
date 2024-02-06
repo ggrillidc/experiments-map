@@ -435,84 +435,84 @@ const experiments = [
     name: 'SuperMAG',
     description: 'Description',
     link: 'link',
-    position: [280, 462],
+    position: [290, 472],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'GNOME',
     description: 'Description',
     link: 'link',
-    position: [260, 480],
+    position: [250, 490],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'Chandra',
     description: 'Description',
     link: 'link',
-    position: [370, 645],
-    color: 'rgba(29,177,0,1)'
+    position: [370, 655],
+    color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'NuSTAR',
     description: 'Description',
     link: 'link',
-    position: [370, 780],
-    color: 'rgba(29,177,0,1)'
+    position: [370, 760],
+    color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'Fermi',
     description: 'Description',
     link: 'link',
-    position: [345, 700],
-    color: 'rgba(29,177,0,1)'
+    position: [345, 680],
+    color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'Planck',
     description: 'Description',
     link: 'link',
     position: [345, 750],
-    color: 'rgba(29,177,0,1)'
+    color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'INTEGRAL',
     description: 'Description',
     link: 'link',
-    position: [320, 690],
-    color: 'rgba(29,177,0,1)'
+    position: [320, 700],
+    color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'XMM-Newton',
     description: 'Description',
     link: 'link',
-    position: [295, 650],
-    color: 'rgba(29,177,0,1)'
+    position: [295, 690],
+    color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'eROSITA',
     description: 'Description',
     link: 'link',
-    position: [270, 650],
+    position: [270, 670],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'COBE',
     description: 'Description',
     link: 'link',
-    position: [270, 760],
+    position: [270, 780],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'HINODE',
     description: 'Description',
     link: 'link',
-    position: [245, 650],
+    position: [245, 680],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'LISA',
     description: 'Description',
     link: 'link',
-    position: [245, 790],
+    position: [245, 780],
     color: 'rgba(0, 118, 186, 0.54)'
   },
   {
