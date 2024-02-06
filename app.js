@@ -429,7 +429,99 @@ const experiments = [
     description: 'Description', 
     link: 'link', 
     position: [-20, -675], 
-    color: 'blue' },
+    color: 'blue'
+  },
+  {
+    name: 'SuperMAG',
+    description: 'Description',
+    link: 'link',
+    position: [280, 462],
+    color: 'blue'
+  },
+  {
+    name: 'GNOME',
+    description: 'Description',
+    link: 'link',
+    position: [260, 480],
+    color: 'blue'
+  },
+  {
+    name: 'Chandra',
+    description: 'Description',
+    link: 'link',
+    position: [340, 655],
+    color: 'blue'
+  },
+  {
+    name: 'NuSTAR',
+    description: 'Description',
+    link: 'link',
+    position: [340, 800],
+    color: 'blue'
+  },
+  {
+    name: 'Fermi',
+    description: 'Description',
+    link: 'link',
+    position: [320, 700],
+    color: 'blue'
+  },
+  {
+    name: 'Planck',
+    description: 'Description',
+    link: 'link',
+    position: [320, 790],
+    color: 'blue'
+  },
+  {
+    name: 'INTEGRAL',
+    description: 'Description',
+    link: 'link',
+    position: [300, 740],
+    color: 'blue'
+  },
+  {
+    name: 'XMM-Newton',
+    description: 'Description',
+    link: 'link',
+    position: [280, 700],
+    color: 'blue'
+  },
+  {
+    name: 'eROSITA',
+    description: 'Description',
+    link: 'link',
+    position: [260, 675],
+    color: 'blue'
+  },
+  {
+    name: 'COBE',
+    description: 'Description',
+    link: 'link',
+    position: [260, 800],
+    color: 'blue'
+  },
+  {
+    name: 'HINODE',
+    description: 'Description',
+    link: 'link',
+    position: [240, 700],
+    color: 'blue'
+  },
+  {
+    name: 'LISA',
+    description: 'Description',
+    link: 'link',
+    position: [240, 840],
+    color: 'blue'
+  },
+  {
+    name: 'MICROSCOPE',
+    description: 'Description',
+    link: 'link',
+    position: [220, 700],
+    color: 'blue'
+  },
   // Add more experiments as needed
 ];
 
