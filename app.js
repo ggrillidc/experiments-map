@@ -551,7 +551,7 @@ experiments.forEach((experiment, index) => {
   const coloredTextMarker = createColoredTextMarker(experiment.name, experiment.color);
 
   // Create a marker with a custom HTML element as its content
-  const marker = L.marker(markerPosition, { opacity: 0.7, icon: coloredTextMarker }).addTo(map);
+  const marker = L.marker(markerPosition, { opacity: 1.0, icon: coloredTextMarker }).addTo(map);
   marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
  });
 
