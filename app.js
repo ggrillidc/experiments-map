@@ -6,7 +6,7 @@ const experiments = [
     position: [-2, -90], 
     color: 'rgba(29,177,0,1)'},
   { name: 'FLASH', 
-    description: 'KLASH (KLoe magnet for Axion SearcH) was a proposal to search for galactic axions with mass about 0.2 μeV using a large volume resonant cavity (tens of cubic meters) cooled down to 4 K and immersed in a magnetic field of about 0.6 T generated inside the superconducting magnet of the KLOE experiment, located at the National Laboratory of Frascati of INFN. This experiment has a potential sensitivity on the axion-to-photon coupling of about 6×10−17 GeV−1, reaching the region predicted by KSVZ and DFSZ models of QCD axions. During the writing of the KLASH CDR, in July 2019, the collaboration was informed about the decision of INFN management to devote the KLOE magnet to the DUNE experiment at Fermilab, so the project has been temporary stopped. The possibility to operate the experiment inside the FINUDA magnet, in place of KLOE, is under investigation.The experiment acronym was changed to FLASH (FINUDA magnet for Light Axion SearcH) ', 
+    description: 'FLASH is an experiment proposed at the Laboratori Nazionali of Frascati of INFN. It is a classical Sikivie haloscope built by recycling a 3 m diameter and 2.2 m long superconducting magnet of 1.1 T, allowing the search of galactic axions through the gaγγ coupling in the mass range around 1 μeV <a href="https://arxiv.org/abs/2309.00351">[Phys.Dark Univ. 42 (2023) 101370]</a>.', 
     link: 'https://coldlab.lnf.infn.it/experiments/klash/', 
     position: [-19, -29], 
     color: 'rgba(29,177,0,1)' },
