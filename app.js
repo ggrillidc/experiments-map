@@ -129,7 +129,14 @@ const experiments = [
     description: 'Description', 
     link: 'link', 
     position: [148, -179], 
-    color: 'rgba(238,34,13,1)' },
+    color: 'rgba(238,34,13,1)'
+  },
+  { name: 'NA64',
+    description: 'NA64 is an experiment located at CERN SPS (Super Proton Synchrotron), active since 2016. It exploits  100-GeV electron and positron beams impinging on a thick, active target (an electromagnetic calorimeter) to detect, via a missing-energy signature, the invisible decays of dark photons with masses in the ~1 MeV - 100 MeV range, axion-like particles, and new Dark Sector states.',
+    link: 'https://na64.web.cern.ch/',
+    position: [148, -179],
+    color: 'rgba(238,34,13,1)'
+  },
   { name: 'GrAHal', 
     description: 'Description', 
     link: 'link', 
