@@ -84,7 +84,29 @@ const experiments = [
     description: 'The International Axion Observatory experiment is a next generation axion helioscope, designed to investigate the potential emission of axions and axion-like particles from the Sun. The baseline search aims to measure the coupling constant of axions to photons via the Primakoff mechanism, and the coupling of axions to electrons and nucleons, which involves non-Primakoff mechanisms. IAXO experiment will also have physics potential beyond this and will be able to explore other exotic physics in the realm of low-energy particle physics, such as hidden photons or chameleons, and the magnet design allows the integration of microwaves cavities or antennas, enabling the pursuit of relic axions.', 
     link: 'https://iaxo.desy.de', 
     position: [320, 25], 
-    color: 'rgba(29,177,0,1)' },
+    color: 'rgba(29,177,0,1)'
+  },
+  {
+    name: 'WISPLC',
+    description: 'WISPLC is an experiment located at the University of Hamburg, Germany, and is a precision direct detection experiment for light dark matter candidates in the neV-scale. It is based on a lumped element approach using a pickup coil inside a 14T solenoid magnetic field and an LC resonator, enhancing the expected signal from the axion-induced oscillating current.',
+    link: '',
+    position: [340, -10],
+    color: 'rgba(29,177,0,1)'
+  },
+  {
+    name: 'WISPFI',
+    description: 'WISPFI experiment is located at the University of Hamburg, Germany. It consists of a Mach-Zhender interferometer based on hollow-core photonic crystal fibers looking for an amplitude reduction following a resonant photon-to-axion conversion in the presence of an external magnetic field. The probed axion masses (28 meV–100 meV) can be tuned by regulating the gas pressure inside the fiber reaching the two-photon coupling expected for the QCD axion.',
+    link: '',
+    position: [360, -10],
+    color: 'rgba(29,177,0,1)'
+  },
+  {
+    name: 'CAST-CAPP',
+    description: 'CAST-CAPP is an axion haloscope detector that operated at CERN in Geneva, Switzerland, inside the 9T CAST dipole magnet. It consists of four identical rectangular cavities that can be tuned in a wide range of about 660 MHz around 5 GHz, with a fast speed of ~10 MHz/min. CAST-CAPP employed for the first time the phase-matching technique to increase the effective volume and also its detection sensitivity. With 172 days of data, it was able to set world-class limits on the galactic DM axion-photon conversion and laid the foundations for a search for transient events by making use of the two newly developed techniques of fast scanning and phase-matching.',
+    link: '',
+    position: [380, -10],
+    color: 'rgba(29,177,0,1)'
+  },
   { name: 'ALPS', 
     description: 'Any Light Particle Search II is a light-shining through a wall experiment to search for WISPs. Light from strong laser is shone into a magnetic field. Laser photons can be converted into a WISPs in front of a light-blocking barrier (production region) and reconverted into photons behind that barrier (regeneration region).  The experiment exploits optical resonators for laser power build-up in a large-scale optical cavity to boost the available power for the WISP production as well as their reconversion probability to light.', 
     link: 'https://alps.desy.de/our_activities/axion_wisp_experiments/alps_ii/', 
