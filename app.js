@@ -35,8 +35,8 @@ const experiments = [
     link: 'link', 
     position: [88, 110], 
     color: 'rgba(29,177,0,1)' },
-  { name: 'CAST', 
-    description: 'Description', 
+  { name: 'CAST-CAPP', 
+    description: 'CAST-CAPP is an axion haloscope detector that operated at CERN in Geneva, Switzerland, inside the 9T CAST dipole magnet. It consists of four identical rectangular cavities that can be tuned in a wide range of about 660 MHz around 5 GHz, with a fast speed of ~10 MHz/min. CAST-CAPP employed for the first time the phase-matching technique to increase the effective volume and also its detection sensitivity. With 172 days of data, it was able to set world-class limits on the galactic DM axion-photon conversion and laid the foundations for a search for transient events by making use of the two newly developed techniques of fast scanning and phase-matching.', 
     link: 'https://home.cern/science/experiments/cast', 
     position: [115, 130], 
     color: 'rgba(29,177,0,1)' },
@@ -91,13 +91,6 @@ const experiments = [
     description: 'WISPFI experiment is located at the University of Hamburg, Germany. It consists of a Mach-Zhender interferometer based on hollow-core photonic crystal fibers looking for an amplitude reduction following a resonant photon-to-axion conversion in the presence of an external magnetic field. The probed axion masses (28 meV–100 meV) can be tuned by regulating the gas pressure inside the fiber reaching the two-photon coupling expected for the QCD axion.',
     link: '',
     position: [350, -10],
-    color: 'rgba(29,177,0,1)'
-  },
-  {
-    name: 'CAST-CAPP',
-    description: 'CAST-CAPP is an axion haloscope detector that operated at CERN in Geneva, Switzerland, inside the 9T CAST dipole magnet. It consists of four identical rectangular cavities that can be tuned in a wide range of about 660 MHz around 5 GHz, with a fast speed of ~10 MHz/min. CAST-CAPP employed for the first time the phase-matching technique to increase the effective volume and also its detection sensitivity. With 172 days of data, it was able to set world-class limits on the galactic DM axion-photon conversion and laid the foundations for a search for transient events by making use of the two newly developed techniques of fast scanning and phase-matching.',
-    link: '',
-    position: [370, -10],
     color: 'rgba(29,177,0,1)'
   },
   { name: 'ALPS', 
