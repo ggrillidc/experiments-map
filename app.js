@@ -37,9 +37,17 @@ const experiments = [
     color: 'rgba(29,177,0,1)' },
   { name: 'CAST-CAPP', 
     description: 'CAST-CAPP is an axion haloscope detector that operated at CERN in Geneva, Switzerland, inside the 9T CAST dipole magnet. It consists of four identical rectangular cavities that can be tuned in a wide range of about 660 MHz around 5 GHz, with a fast speed of ~10 MHz/min. CAST-CAPP employed for the first time the phase-matching technique to increase the effective volume and also its detection sensitivity. With 172 days of data, it was able to set world-class limits on the galactic DM axion-photon conversion and laid the foundations for a search for transient events by making use of the two newly developed techniques of fast scanning and phase-matching.', 
-    link: 'https://home.cern/science/experiments/cast', 
+    link: '', 
     position: [115, 130], 
-    color: 'rgba(29,177,0,1)' },
+    color: 'rgba(29,177,0,1)'
+  },
+  {
+    name: 'CAST',
+    description: '',
+    link: 'https://home.cern/science/experiments/cast',
+    position: [138, 210],
+    color: 'rgba(29,177,0,1)'
+  },
   { name: 'BASE', 
     description: 'Description', 
     link: 'https://base.web.cern.ch/index.php/', 
