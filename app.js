@@ -57,6 +57,13 @@ const experiments = [
     color: 'rgba(29,177,0,1)'
   },
   {
+    name: 'SuperDark',
+    description: 'SuperDark is a planned experiment at the Institute for Quantum Optics and Quantum Information (IQOQI) in Vienna, Austria. It consists of a mechanical sensor which will be set up to be sensitive to vector B-L dark matter, as well as to dark photons and axion-like particles. The mechanical system involves a magnetically-levitated gram-scale superconductor. The motion of the superconductor will be highly isolated from noise sources, and it will be precisely read out using superconducting quantum circuits.',
+    link: '',
+    position: [115, 250],
+    color: 'rgba(238,34,13,1)'
+  },
+  {
     name: 'CAST',
     description: '',
     link: 'https://home.cern/science/experiments/cast',
