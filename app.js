@@ -178,7 +178,7 @@ const experiments = [
   {
     name: 'CASPEr',
     description: 'Description',
-    link: 'link',
+    link: 'https://budker.uni-mainz.de/?page_id=7',
     position: [213, -173],
     color: 'rgba(29,177,0,1)'
   },
@@ -559,10 +559,17 @@ const experiments = [
     color: 'rgba(238,34,13,1)'
   },
   {
-    name: 'SNIPE',
+    name: 'SNIPE-Hunt',
     description: 'Description',
-    link: 'link',
-    position: [60, -565],
+    link: ' https://arxiv.org/abs/2306.11575#',
+    position: [235, -272],
+    color: 'rgba(238,34,13,1)'
+  },
+  {
+    name: 'SNIPE-Hunt',
+    description: 'Description',
+    link: ' https://arxiv.org/abs/2306.11575#',
+    position: [5, -585],
     color: 'rgba(238,34,13,1)'
   },
   {
@@ -638,7 +645,7 @@ const experiments = [
   {
     name: 'GNOME',
     description: 'Description',
-    link: 'link',
+    link: ' https://budker.uni-mainz.de/gnome/',
     position: [250, 490],
     color: 'rgba(29,177,0,1)'
   },
