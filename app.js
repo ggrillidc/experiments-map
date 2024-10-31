@@ -562,7 +562,7 @@ const experiments = [
     name: 'SNIPE-Hunt',
     description: 'Description',
     link: ' https://arxiv.org/abs/2306.11575#',
-    position: [240, -330],
+    position: [220, -320],
     color: 'rgba(238,34,13,1)'
   },
   {
