@@ -727,8 +727,8 @@ const experiments = [
     color: 'rgba(0, 118, 186, 1)'
   },
   {
-    name: 'RadioAxion',
-    description: 'The RadioAxion-α experiment aims to detect axion dark matter by observing time-modulated changes in radioisotope decay rates deep underground. Focusing on the α-decay of heavy isotopes, particularly Americium-241, this experiment, installed at the Gran Sasso Laboratory, investigates potential time variations in α-radioactivity induced by an oscillating axion background. RadioAxion-α is designed to explore a wide range of oscillation periods, from microseconds to a year, enabling sensitive constraints on the axion decay constant across a vast axion mass range—from ${10}<sup>${-9}</sup> eV to ${10}<sup>${-22}</sup> eV—with anticipated limits to be obtained already after few months of data collection. ',
+    name: 'RadioAxion-&alpha',
+    description: 'The RadioAxion-&alpha experiment aims to detect axion dark matter by observing time-modulated changes in radioisotope decay rates deep underground. Focusing on the &alpha-decay of heavy isotopes, particularly Americium-241, this experiment, installed at the Gran Sasso Laboratory, investigates potential time variations in &alpha-radioactivity induced by an oscillating axion background. RadioAxion-&alpha is designed to explore a wide range of oscillation periods, from microseconds to a year, enabling sensitive constraints on the axion decay constant across a vast axion mass range—from 10<sup>-9</sup> eV to 10<sup>-22</sup> eV — with anticipated limits to be obtained already after few months of data collection. ',
     link: 'https://www.sciencedirect.com/science/article/pii/S0370269324003940?via%3Dihub',
     position: [-40, 60],
     color: 'rgba(29,177,0,1)'
