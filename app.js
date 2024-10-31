@@ -52,7 +52,7 @@ const experiments = [
   {
     name: 'CAST-CAPP',
     description: 'CAST-CAPP is an axion haloscope detector that operated at CERN in Geneva, Switzerland, inside the 9T CAST dipole magnet. It consists of four identical rectangular cavities that can be tuned in a wide range of about 660 MHz around 5 GHz, with a fast speed of ~10 MHz/min. CAST-CAPP employed for the first time the phase-matching technique to increase the effective volume and also its detection sensitivity. With 172 days of data, it was able to set world-class limits on the galactic DM axion-photon conversion and laid the foundations for a search for transient events by making use of the two newly developed techniques of fast scanning and phase-matching.',
-    link: '',
+    link: 'https://www.nature.com/articles/s41467-022-33913-6 ',
     position: [115, 130],
     color: 'rgba(29,177,0,1)'
   },
@@ -65,7 +65,7 @@ const experiments = [
   },
   {
     name: 'CAST',
-    description: 'Description',
+    description: 'The CERN Axion Solar Telescope (CAST) located at CERN in Switzerland, was designed to detect solar axions. Operational from 2003 to 2021, CAST utilized a powerful 9.2-meter-long superconducting 9 T LHC test magnet to convert solar axions into X-rays. By tracking the Sun for approximately 1.5 hours at sunrise and sunset daily, CAST effectively functioned as a telescope, focusing the expected X-rays onto detectors at the one end of the dipole magnet. While the experiment did not yield an axion signal, it established world-leading constraints on the axion coupling to photons and electrons and pioneered the use of cutting-edge X-ray detector technologies, laying the groundwork for next-generation solar, dark matter, and other axion searches. https://www.nature.com/articles/nphys4109',
     link: 'https://home.cern/science/experiments/cast',
     position: [138, 210],
     color: 'rgba(29,177,0,1)'
@@ -79,7 +79,7 @@ const experiments = [
   },
   {
     name: 'RADES',
-    description: 'Description',
+    description: 'RADES is short-hand for - Relic Axion Dark-Matter Exploratory Setup and has performed several physics searches for axions around 9-10GHz (https://arxiv.org/abs/2104.13798) On the long term we would like to run babyIAXO as a haloscope.',
     link: 'link',
     position: [160, 145],
     color: 'rgba(29,177,0,1)'
@@ -191,15 +191,15 @@ const experiments = [
   },
   {
     name: 'DAMNED',
-    description: 'Description',
-    link: 'link',
+    description: 'DAMNED is an experiment searching for scalar dark matter candidates, which ran at SYRTE, Observatoire de Paris. This experiment looks for variations of fundamental constants, which would modify the optical length and refractive index of objects. The idea is to compare the length of an ultrastable cavity with itself in the past, by means of an unequal Mach Zehnder interferometer.',
+    link: 'https://link.aps.org/doi/10.1103/PhysRevLett.126.051301',
     position: [168, -182],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
     name: 'SHUKET',
-    description: 'Description',
-    link: 'link',
+    description: 'SHUKET is an experiment located at CEA Saclay, built for the detection of dark photon dark matter coupling with electromagnetism. In this setup, a dish antenna with low curvature acts as an emitter for the electromagnetic field and a horn antenna is placed at its curvature center to detect the time averaged power.  https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.035001',
+    link: 'https://link.aps.org/doi/10.1103/PhysRevLett.122.201801',
     position: [148, -179],
     color: 'rgba(238,34,13,1)'
   },
@@ -233,8 +233,8 @@ const experiments = [
   },
   {
     name: 'CADEx',
-    description: 'Description',
-    link: 'link',
+    description: 'The Canfranc Axion Detection Experiment (CADEx) is a planned search for the Dark Matter axion in the mass range (330–460 μeV) within the W-band (80–110 GHz). CADEx combines a series of microwave resonant cavity haloscopes with a broadband incoherent detector system (based on kinetic inductance detectors, KIDs) to be installed in the dilution refrigerator in the Canfranc Underground Lab (LSC). CADEx is currently in the design and development phase.',
+    link: 'https://arxiv.org/abs/2206.02980',
     position: [45, -140],
     color: 'rgba(29,177,0,1)'
   },
@@ -738,6 +738,13 @@ const experiments = [
     description: 'Description',
     link: 'https://padme.lnf.infn.it/',
     position: [-87, -15],
+    color: 'rgba(238,34,13,1)'
+  },
+  {
+    name: 'NA62',
+    description: 'The  experiment was built to measure precisely the branching ratio ${\cal B}(K^+\to\pi^+\nu\bar\nu$), and has recently measured this decay with a 5 sigma significance (https://home.cern/news/press-release/physics/na62-experiment-cern-observes-ultra-rare-particle-decay). Thanks to its high intensity beam and detector performance(redundant particle- identification capability, extremely  efficient  veto  system  and  high  resolution  measurements  of  momentum, time, and energy), NA62 has also achieved sensitivities to long-lived light mediators in a variety of new-physics scenarios.',
+    link: 'https://na48.web.cern.ch/Welcome/papers/Overview.html ',
+    position: [158, -300],
     color: 'rgba(238,34,13,1)'
   },
   // Add more experiments as needed
