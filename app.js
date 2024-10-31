@@ -735,8 +735,8 @@ const experiments = [
   },
   {
     name: 'PADME',
-    description: '',
-    link: '',
+    description: 'Description',
+    link: 'https://padme.lnf.infn.it/',
     position: [-87, -15],
     color: 'rgba(238,34,13,1)'
   },
