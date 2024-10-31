@@ -60,12 +60,12 @@ const experiments = [
     name: 'SuperDark',
     description: 'SuperDark is a planned experiment at the Institute for Quantum Optics and Quantum Information (IQOQI) in Vienna, Austria. It consists of a mechanical sensor which will be set up to be sensitive to vector B-L dark matter, as well as to dark photons and axion-like particles. The mechanical system involves a magnetically-levitated gram-scale superconductor. The motion of the superconductor will be highly isolated from noise sources, and it will be precisely read out using superconducting quantum circuits.',
     link: '',
-    position: [115, 250],
+    position: [115, 260],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'CAST',
-    description: '',
+    description: 'Description',
     link: 'https://home.cern/science/experiments/cast',
     position: [138, 210],
     color: 'rgba(29,177,0,1)'
@@ -149,7 +149,7 @@ const experiments = [
   },
   {
     name: 'MADMAX',
-    description: 'Description',
+    description: 'The MAgnetized Disk and Mirror Axion eXperiment MADMAX is a dielectric haloscope. It consists of several parallel dielectric disks, whose separations can be adjusted and which are placed in a strong magnetic dipole field. Dark matter axions would induced electromagnetic waves generated at discontinuities in the electrical constant. This new approach allows to search for radio frequencies in the 10-100 GHz domain, thus enabling searching for relatively heavy dark matter axions. World-leading limits have been published with small-scale prototypes in 2024 already.',
     link: 'https://madmax.mpp.mpg.de/news.html',
     position: [300, -110],
     color: 'rgba(29,177,0,1)'
@@ -717,6 +717,20 @@ const experiments = [
     description: 'Description',
     link: 'link',
     position: [220, 680],
+    color: 'rgba(0, 118, 186, 1)'
+  },
+  {
+    name: 'RadioAxion',
+    description: 'The RadioAxion-α experiment aims to detect axion dark matter by observing time-modulated changes in radioisotope decay rates deep underground. Focusing on the α-decay of heavy isotopes, particularly Americium-241, this experiment, installed at the Gran Sasso Laboratory, investigates potential time variations in α-radioactivity induced by an oscillating axion background. RadioAxion-α is designed to explore a wide range of oscillation periods, from microseconds to a year, enabling sensitive constraints on the axion decay constant across a vast axion mass range—from 10^-9 eV to 10^−22eV—with anticipated limits to be obtained already after few months of data collection. ',
+    link: 'https://www.sciencedirect.com/science/article/pii/S0370269324003940?via%3Dihub',
+    position: [-47, 95],
+    color: 'rgba(0, 118, 186, 1)'
+  },
+  {
+    name: 'PADME',
+    description: '',
+    link: '',
+    position: [-77, -35],
     color: 'rgba(0, 118, 186, 1)'
   },
   // Add more experiments as needed
