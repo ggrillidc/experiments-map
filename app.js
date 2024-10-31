@@ -744,7 +744,7 @@ const experiments = [
     name: 'NA62',
     description: 'The  experiment was built to measure precisely the branching ratio ${\cal B}(K^+\to\pi^+\nu\bar\nu$), and has recently measured this decay with a 5 sigma significance (https://home.cern/news/press-release/physics/na62-experiment-cern-observes-ultra-rare-particle-decay). Thanks to its high intensity beam and detector performance(redundant particle- identification capability, extremely  efficient  veto  system  and  high  resolution  measurements  of  momentum, time, and energy), NA62 has also achieved sensitivities to long-lived light mediators in a variety of new-physics scenarios.',
     link: 'https://na48.web.cern.ch/Welcome/papers/Overview.html ',
-    position: [158, -300],
+    position: [158, -250],
     color: 'rgba(238,34,13,1)'
   },
   // Add more experiments as needed
