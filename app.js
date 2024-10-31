@@ -562,7 +562,7 @@ const experiments = [
     name: 'SNIPE-Hunt',
     description: 'Description',
     link: ' https://arxiv.org/abs/2306.11575#',
-    position: [235, -272],
+    position: [235, -320],
     color: 'rgba(238,34,13,1)'
   },
   {
@@ -731,14 +731,14 @@ const experiments = [
     description: 'The RadioAxion-α experiment aims to detect axion dark matter by observing time-modulated changes in radioisotope decay rates deep underground. Focusing on the α-decay of heavy isotopes, particularly Americium-241, this experiment, installed at the Gran Sasso Laboratory, investigates potential time variations in α-radioactivity induced by an oscillating axion background. RadioAxion-α is designed to explore a wide range of oscillation periods, from microseconds to a year, enabling sensitive constraints on the axion decay constant across a vast axion mass range—from 10^-9 eV to 10^−22eV—with anticipated limits to be obtained already after few months of data collection. ',
     link: 'https://www.sciencedirect.com/science/article/pii/S0370269324003940?via%3Dihub',
     position: [-47, 95],
-    color: 'rgba(0, 118, 186, 1)'
+    color: 'rgba(29,177,0,1)'
   },
   {
     name: 'PADME',
     description: '',
     link: '',
     position: [-77, -35],
-    color: 'rgba(0, 118, 186, 1)'
+    color: 'rgba(238,34,13,1)'
   },
   // Add more experiments as needed
 ];
