@@ -735,7 +735,7 @@ const experiments = [
   },
   {
     name: 'PADME',
-    description: 'Description',
+    description: "The PADME experiment (Positron Annihilation into Dark Matter Experiment) at INFN's Frascati National Laboratory aims to search for a Dark Photon through positron-on-target collisions at the DAΦNE Beam Test Facility. PADME investigates new physics with minimal model dependence by studying electron-positron interactions in a fixed-target setup, probing the invariant mass range from a few MeV up to about 24 MeV. The experiment conducted two data acquisition campaigns between 2018 and 2020, focusing on the search for an A' (Dark Photon) with a mass near 20 MeV and studying Standard Model processes, such as electron-positron annihilation into γγ pairs [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.107.012008]. Recently, the collaboration has concentrated on examining the Bhabha scattering process to explore the potential existence of the X17 boson, a candidate for explaining the anomaly observed in the nuclear transition of 8Be.",
     link: 'https://padme.lnf.infn.it/',
     position: [-87, -15],
     color: 'rgba(238,34,13,1)'
