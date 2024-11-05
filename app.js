@@ -263,7 +263,7 @@ const experiments = [
     name: 'LST',
     description: 'LST (Large Sized Telescope) is an array of four 23m diameter telescope of the IACT class, sensitive between 10 GeV and few TeV. At the moment one of four telescope is operating, the others are under construction. Similarly to MAGIC, they are located at ORM and they detect ALP imprint on gamma-ray spectra from astrophysical sources. LSTs are part of the future Cherenkov Telescope Array Observatory (www.cta-observatory.org ).',    
     link: 'https://www.lst1.iac.es/site.html',
-    position: [-58, -220],
+    position: [-65, -220],
     color: 'rgba(29,177,0,0.54)'
   },
   {
