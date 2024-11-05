@@ -254,9 +254,16 @@ const experiments = [
   },
   {
     name: 'MAGIC',
-    description: 'Description',
-    link: 'link',
+    description: 'MAGIC (Major Atmospheric Gamma-ray Imaging Cherenkov) telescope is a ground-based system of two telescopes of 17 m diameter of the Imaging Atmospheric Cherenkov Telescope (IACT) class. They are located in the Observatorio Roque de Los Muchachos (ORM), La Palma, Spain. They detect cosmic gamma rays from 30 GeV to 50 TeV via the Cherenkov light emitted in the atmosphere during the development of Extended Atmospheric Showers (EAS) of particles after the primary gamma ray interaction. ALPs signatures are found in gamma-ray spectra as ‘wiggles’ or ‘spectral hardening’ when TeV photons emitted from astrophysical sources mix with ALPs in external magnetic fields, as those present around those targets. The critical energy for TeV photons for such mixing is reached for ALP masses around the neV-mueV. Astrophysical target of interests are active galactic nuclei (especially if at the center of galaxy clusters).',
+    link: 'https://magic.mpp.mpg.de/',
     position: [-50, -220],
+    color: 'rgba(29,177,0,0.54)'
+  },
+  {
+    name: 'LST',
+    description: 'LST (Large Sized Telescope) is an array of four 23m diameter telescope of the IACT class, sensitive between 10 GeV and few TeV. At the moment one of four telescope is operating, the others are under construction. Similarly to MAGIC, they are located at ORM and they detect ALP imprint on gamma-ray spectra from astrophysical sources. LSTs are part of the future Cherenkov Telescope Array Observatory (www.cta-observatory.org ).',    
+    link: 'https://www.lst1.iac.es/site.html',
+    position: [-58, -220],
     color: 'rgba(29,177,0,0.54)'
   },
   {
