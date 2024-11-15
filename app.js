@@ -78,7 +78,7 @@ const experiments = [
     color: 'rgba(29,177,0,1)'
   },
   {
-    name: 'RADES',
+    name: 'RADES-CAST',
     description: 'RADES is short-hand for - Relic Axion Dark-Matter Exploratory Setup and has performed several physics searches for axions around 9-10GHz (https://arxiv.org/abs/2104.13798) On the long term we would like to run babyIAXO as a haloscope.',
     link: 'link',
     position: [160, 145],
@@ -131,6 +131,13 @@ const experiments = [
     description: 'The International Axion Observatory experiment is a next generation axion helioscope, designed to investigate the potential emission of axions and axion-like particles from the Sun. The baseline search aims to measure the coupling constant of axions to photons via the Primakoff mechanism, and the coupling of axions to electrons and nucleons, which involves non-Primakoff mechanisms. IAXO experiment will also have physics potential beyond this and will be able to explore other exotic physics in the realm of low-energy particle physics, such as hidden photons or chameleons, and the magnet design allows the integration of microwaves cavities or antennas, enabling the pursuit of relic axions.',
     link: 'https://iaxo.desy.de',
     position: [320, 25],
+    color: 'rgba(29,177,0,1)'
+  },
+  {
+    name: 'RADES-BabyIAXO',
+    description: 'RADES-BabyIAXO is a low-frequency axion haloscope setup suitable for operation inside the future BabyIAXO magnet, at DESY. This proposal has a potential sensitivity to the axion-photon coupling down to values corresponding to the KSVZ model, in the currently unexplored mass range between 1 and 2 ueV, after a total effective exposure of 440 days. This mass range is covered by the use of four differently dimensioned 5-meter-long cavities, equipped with a tuning mechanism based on inner turning plates. The setup includes a cryostat and cooling system to cool down the BabyIAXO bore down to about 5 K, as well as appropriate low-noise signal amplification and detection chain.',
+    link: 'https://arxiv.org/abs/2306.17243',
+    position: [370, -10],
     color: 'rgba(29,177,0,1)'
   },
   {
@@ -236,6 +243,13 @@ const experiments = [
     description: 'The Canfranc Axion Detection Experiment (CADEx) is a planned search for the Dark Matter axion in the mass range (330–460 μeV) within the W-band (80–110 GHz). CADEx combines a series of microwave resonant cavity haloscopes with a broadband incoherent detector system (based on kinetic inductance detectors, KIDs) to be installed in the dilution refrigerator in the Canfranc Underground Lab (LSC). CADEx is currently in the design and development phase.',
     link: 'https://arxiv.org/abs/2206.02980',
     position: [45, -140],
+    color: 'rgba(29,177,0,1)'
+  },
+  {
+    name: 'RADES-LSC',
+    description: 'RADES-LSC proposal combines single-photon detection by means of 3D transmon, magnetic tuning and the use of high temperature superconductors to enhance the sensitivity of the axion dark matter detection in the 30 - 70 ueV mass range. The experiment will be developed as part of the ERC Synergy DarkQuantum project and is planned to be located at the Canfranc Underground Laboratory (LSC).',
+    link: 'https://cordis.europa.eu/project/id/101118911',
+    position: [23, -203],
     color: 'rgba(29,177,0,1)'
   },
   {
