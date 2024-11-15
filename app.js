@@ -249,7 +249,7 @@ const experiments = [
     name: 'RADES-LSC',
     description: 'RADES-LSC proposal combines single-photon detection by means of 3D transmon, magnetic tuning and the use of high temperature superconductors to enhance the sensitivity of the axion dark matter detection in the 30 - 70 ueV mass range. The experiment will be developed as part of the ERC Synergy DarkQuantum project and is planned to be located at the Canfranc Underground Laboratory (LSC).',
     link: 'https://cordis.europa.eu/project/id/101118911',
-    position: [23, -203],
+    position: [23, -230],
     color: 'rgba(29,177,0,1)'
   },
   {
