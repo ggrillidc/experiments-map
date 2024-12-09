@@ -261,8 +261,8 @@ const experiments = [
   },
   {
     name: 'PVLAS',
-    description: 'Description',
-    link: 'link',
+    description: 'PVLAS (Polarizzazione del Vuoto con Laser, "polarization of the vacuum with laser") investigates the properties of the quantum vacuum, specifically looking for nonlinear optical behavior in magnetic fields. The experiment uses a high-sensitivity polarimeter and a magnetic field to measure changes in light polarization as it passes through the vacuum, seeking evidence of hypothetical particles such as Dark Matter or axion-like particles.',
+    link: 'https://web.archive.org/web/20131213220905/http://pvlas.ts.infn.it/',
     position: [-13, -85],
     color: 'rgba(29,177,0,1)'
   },
@@ -289,15 +289,15 @@ const experiments = [
   },
   {
     name: 'MuDHI',
-    description: 'Description',
-    link: 'link',
+    description: 'MuDHI (Multilayer Dielectric Haloscope Investigation) is a dielectric haloscope designed to search for axions in the mass range of 40–400 μeV/c² and dark photons in the 0.1–10 eV/c² mass range. The experiment uses a stack of 23 bilayers of SiO₂ and Si₃N₄, coupled with an aspherical lens and a single-photon avalanche diode for detection. Conducted at the New York University Abu Dhabi, it is the first dark matter experiment operated in the Middle East. The study places constraints on the kinetic mixing coupling constant between dark photons and ordinary photons, with no excess observed in the data.',
+    link: 'https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.052010',
     position: [-70, 255],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'ARGO-YBJ',
-    description: 'Description',
-    link: 'link',
+    description: 'ARGO-YBJ (Astrophysical Radiation with Ground-based Observatory at YangBaJing) studies cosmic rays and gamma-ray astronomy at an energy threshold of ~100 GeV. The methodology involves a large array of resistive plate chambers at high altitude in Tibet, detecting extensive air showers caused by cosmic rays and gamma rays to explore their origins and propagation.',
+    link: 'https://argo.na.infn.it',
     position: [60, 325],
     color: 'rgba(29,177,0,0.54)'
   },
@@ -310,15 +310,15 @@ const experiments = [
   },
   {
     name: 'FAST',
-    description: 'Description',
-    link: 'link',
+    description: 'FAST (Five-hundred-meter Aperture Spherical Telescope) is a radio telescope focused in the frequency ranges from 70 MHz to 3.0 GHz. The methodology includes using a vast, single-dish antenna in a natural karst depression in China, providing unparalleled sensitivity and resolution for deep-space radio observations.',
+    link: 'https://fast.bao.ac.cn',
     position: [-38, 490],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'TASEH',
-    description: 'Description',
-    link: 'link',
+    description: "The TASEH (Taiwan Axion Search Experiment with Haloscope) is an axion dark matter search experiment in Taiwan, targeting the 10–25 μeV mass range, equivalent to the 2.5–6 GHz frequency band. It utilizes a linear amplifier detector, with future plans to incorporate a quantum-limited Josephson parametric amplifier and develop a tunable large-volume cavity detector to enhance sensitivity. In its first detection run, CD102, conducted in October-November 2021, TASEH excluded axion-photon coupling constants down to 8.1 × 10⁻¹⁴ GeV⁻¹ in the 19.4687–19.8436 μeV mass range at 95% confidence level, allowing to probe the KSVZ model's predictions.",
+    link: 'https://arxiv.org/pdf/2205.01477',
     position: [-75, 530],
     color: 'rgba(29,177,0,1)'
   },
@@ -338,8 +338,8 @@ const experiments = [
   },
   {
     name: 'AMAILS',
-    description: 'Description',
-    link: 'link',
+    description: 'The AMAILS (Atomic Magnetometer Arrays in Large Shields) experiment demonstrates the first search for dark photons using 15 atomic magnetometers. Located in shielded rooms in Harbin and Suzhou, China, 1700 km apart, these magnetometers are synchronized via GPS and have femtotesla-level sensitivity. By correlating readouts from the network, AMAILS forms the first long-baseline network of quantum sensors to search for dark photon dark matter signals over distances exceeding 1000 km. The experiment constrains the kinetic mixing of dark photons in the mass range of 4.1 feV to 2.1 peV, surpassing current terrestrial searches.',
+    link: 'https://www.nature.com/articles/s41467-024-47566-0',
     position: [143, 550],
     color: 'rgba(238,34,13,1)'
   },
@@ -359,85 +359,85 @@ const experiments = [
   },
   {
     name: 'DOSUE-RR',
-    description: 'Description',
-    link: 'link',
+    description: 'The DOSUE-RR (Dark-matter Observing System for Un-Explored Radio-Range) experiment aims to detect conversion photons from dark-photon cold dark matter in the radio-wave range. Targeting a mass range of 10 μeV/c² to meV/c², the first experiment utilized a cryogenic millimeter-wave receiver operating between 18.0―26.5 GHz, corresponding to a dark photon mass range of 74―110 μeV/c². Conducted over two weeks in 2021, the experiment improved sensitivity but did not detect significant dark-photon signals, setting the most stringent constraints to date on the coupling constant between dark photons and ordinary photons. Future plans include expanding the frequency range up to a few 100 GHz.',
+    link: 'https://arxiv.org/pdf/2205.03679',
     position: [15, 720],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'DANCE',
-    description: 'Description',
-    link: 'link',
+    description: 'The DANCE (Dark matter Axion search with riNg Cavity Experiment) proposal aims to detect axion dark matter using a double-pass bow-tie cavity without requiring a strong magnetic field. This setup minimizes sensitivity to cavity length fluctuations and targets the axion mass range m < 10⁻¹⁰ eV. The prototype experiment, DANCE Act-1, features a cavity with a 1-meter round-trip length and is designed to achieve sensitivity to the axion-photon coupling constant beyond current bounds by several orders of magnitude. ',
+    link: 'https://arxiv.org/pdf/1911.05196',
     position: [45, 760],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'SUMICO',
-    description: 'Description',
-    link: 'link',
+    description: 'The Tokyo Axion Helioscope experiment, also known as Sumico, aims to detect axions produced in the solar core. It employs a strong magnetic field to convert axions into X-ray photons and uses a precise solar-tracking mount. The photons are detected by an X-ray detector composed of 16 PIN-photodiodes. Additionally, a gas container and regulation system enhance the coherence between axions and photons in the conversion region, enabling sensitivity to axions with masses up to 2 eV.',
+    link: 'https://arxiv.org/pdf/1201.4622',
     position: [75, 760],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'SKA',
-    description: 'Description',
-    link: 'link',
+    description: 'The SKA-survey array is a compact array of 12–15 meter diameter parabolic dishes designed for the medium-frequency range. Each dish is equipped with a multi-beam, phased array feed providing a large field of view and multiple receiving systems that cover frequencies from 350 MHz to 4 GHz. This array is part of the broader SKA (Square Kilometre Array) project, an international effort to build the world`s largest and most sensitive radio observatory, spanning several continents to enable high- resolution imaging and deep - space exploration.',
+    link: 'https://www.skao.int/en',
     position: [-225, 490],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'UPLOAD/DOWNLOAD',
-    description: 'Description',
-    link: 'link',
+    description: 'The UPLOAD (UPconversion Loop Oscillator Axion Detection) experiment utilizes a resonant cavity with two spatially overlapping microwave modes driven by free-running loop oscillators. The chosen geometry enhances sensitivity to upconversion (photon difference) while reducing sensitivity to downconversion (photon sum). The experiment, UPLOAD-CMC, uses a cylindrical microwave cavity and searches for frequency deviations in the oscillators` carrier frequencies. This setup allows the experiment to explore a large portion of the unexplored low-mass axion space covering frequencies from DC to 240 MHz (<1 μeV).',
+    link: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.081803',
     position: [-275, 300],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'ORGAN',
-    description: 'Description',
-    link: 'link',
+    description: 'The ORGAN (Oscillating Resonant Group AxioN) experiment, located in Perth, Western Australia, is a microwave cavity axion haloscope designed to probe high-mass axions, motivated by various theoretical models. The first stage of the experiment focuses on 26.6 GHz to directly test a hypothesis suggesting axions at a mass of 110 μeV, while later stages will scan a broader range of 15-50 GHz (60–210 μeV). The initial pathfinding run sets a limit on the axion-photon coupling constant 2.02×10^-12 eV^-1 at 26.531 GHz (110 μeV) with 90% confidence. Future plans involve expanding the scan range to improve sensitivity to well-known axion models.',
+    link: 'https://arxiv.org/pdf/1706.00209',
     position: [-300, 435],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'PPTA',
-    description: 'Description',
-    link: 'link',
+    description: 'PPTA (Parkes Pulsar Timing Array) aims to detect gravitational waves through pulsar timing. The methodology includes using the Parkes radio telescope to observe millisecond pulsars, measuring their timing variations with high precision to identify gravitational wave signatures from supermassive black hole mergers.',
+    link: 'https://www.atnf.csiro.au/research/pulsar/ppta/',
     position: [-295, 785],
     color: 'rgba(0, 118, 186, 0.54)'
   },
   {
     name: 'SKA',
-    description: 'Description',
-    link: 'link',
+    description: 'The SKA-survey array is a compact array of 12–15 meter diameter parabolic dishes designed for the medium-frequency range. Each dish is equipped with a multi-beam, phased array feed providing a large field of view and multiple receiving systems that cover frequencies from 350 MHz to 4 GHz. This array is part of the broader SKA (Square Kilometre Array) project, an international effort to build the world`s largest and most sensitive radio observatory, spanning several continents to enable high- resolution imaging and deep - space exploration.',
+    link: 'https://www.skao.int/en',
     position: [-340, 155],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'H.E.S.S.',
-    description: 'Description',
-    link: 'link',
+    description: 'H.E.S.S. (High Energy Stereoscopic System) is a system of imaging atmospheric Cherenkov telescopes for gamma-ray astronomy in Namibia. The methodology involves detecting Cherenkov radiation produced by gamma rays interacting with the Earth`s atmosphere in the energy range of 0.03 to 100 TeV, allowing the study of high-energy astrophysical sources.',
+    link: 'https://www.mpi-hd.mpg.de/HESS/',
     position: [-260, -60],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'SPT',
-    description: 'Description',
-    link: 'link',
+    description: 'The South Pole Telescope (SPT) is a 10-meter diameter microwave, millimeter, and sub-millimeter wavelength telescope located at the NSF Amundsen-Scott South Pole Station, offering the ideal conditions for mm-wave survey observations due to its stable, dry atmosphere. It is equipped with the advanced SPT-3G camera, a 16,000-detector, three-band (90, 150, 220 GHz), polarization-sensitive instrument. SPT aims to address fundamental scientific questions, including the origin, composition, and fate of the Universe, dark energy, neutrino masses, and the validity of General Relativity.',
+    link: 'https://pole.uchicago.edu',
     position: [-370, -20],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'BICEP',
-    description: 'Description',
-    link: 'link',
+    description: 'BICEP (Background Imaging of Cosmic Extragalactic Polarization) is an experiment designed to measure the polarization of the cosmic microwave background (CMB) with unprecedented precision, aiming to answer key questions about the early Universe. It operates at frequencies of 100 GHz and 150 GHz, with angular resolutions of 1.0 and 0.7 degrees, respectively. The experiment uses an array of 98 JPL polarization-sensitive detectors to map a large region of the sky around the South Celestial Pole. BICEP conducted observations from 2006 to 2008, significantly contributing to our understanding of the CMB`s polarization patterns.',
+    link: 'http://bicepkeck.org',
     position: [-390, -30],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'VLT',
-    description: 'Description',
-    link: 'link',
+    description: 'The European Space Observatory (ESO)`s Very Large Telescope (VLT) is a flagship facility for European ground-based astronomy and one of the world`s most advanced optical telescopes. It consists of four 8.2-meter diameter Unit Telescopes and four 1.8-meter diameter Auxiliary Telescopes, which can work together as an interferometer (the ESO Very Large Telescope Interferometer) to achieve higher resolution and finer details than either the Unit or Auxiliary Telescopes alone. The VLT covers a frequency range of 300 nm to 20 μm. Each 8.2-meter Unit Telescope can also operate individually, capturing images of celestial objects as faint as magnitude 30 in a one-hour exposure, revealing objects four billion times fainter than those visible to the naked eye.',
+    link: 'https://www.eso.org/public/teles-instr/paranal-observatory/vlt/',
     position: [-305, -322],
     color: 'rgba(29,177,0,0.54)'
   },
