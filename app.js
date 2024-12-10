@@ -829,19 +829,19 @@ experiments.forEach((experiment, index) => {
 
   // Create a marker with a custom HTML element as its content
   const marker = L.marker(markerPosition, { opacity: 1.0, icon: coloredTextMarker }).addTo(map);
-  //marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
+  marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
 
   // Add MathJax LaTeX formula to the popup description
-  const popupContent = `
-    <b>${experiment.name}</b><br>
-    ${experiment.description}<br>
-    <a href="${experiment.link}" target="_blank">Experiment Page</a>
-  `;
+  // const popupContent = `
+  //   <b>${experiment.name}</b><br>
+  //   ${experiment.description}<br>
+  //   <a href="${experiment.link}" target="_blank">Experiment Page</a>
+  // `;
 
-  // Bind the popup and trigger MathJax rendering
-  marker.bindPopup(popupContent).on('popupopen', () => {
-    MathJax.typeset(); // Render LaTeX when the popup opens
-  });
+  // // Bind the popup and trigger MathJax rendering
+  // marker.bindPopup(popupContent).on('popupopen', () => {
+  //   MathJax.typeset(); // Render LaTeX when the popup opens
+  // });
 });
 
 // Add a grid overlay
