@@ -394,7 +394,7 @@ const experiments = [
   },
   {
     name: 'ORGAN',
-    description: 'The ORGAN (Oscillating Resonant Group AxioN) experiment, located in Perth, Western Australia, is a microwave cavity axion haloscope designed to probe high-mass axions, motivated by various theoretical models. The first stage of the experiment focuses on 26.6 GHz to directly test a hypothesis suggesting axions at a mass of 110 μeV, while later stages will scan a broader range of 15-50 GHz (60–210 μeV). The initial pathfinding run sets a limit on the axion-photon coupling constant 2.02×10^-12 eV^-1 at 26.531 GHz (110 μeV) with 90% confidence. Future plans involve expanding the scan range to improve sensitivity to well-known axion models.',
+    description: 'The ORGAN (Oscillating Resonant Group AxioN) experiment, located in Perth, Western Australia, is a microwave cavity axion haloscope designed to probe high-mass axions, motivated by various theoretical models. The first stage of the experiment focuses on 26.6 GHz to directly test a hypothesis suggesting axions at a mass of 110 μeV, while later stages will scan a broader range of 15-50 GHz (60–210 μeV). The initial pathfinding run sets a limit on the axion-photon coupling constant 2.02×10<sup>-12</sup> eV<sup>-1</sup> at 26.531 GHz (110 μeV) with 90% confidence. Future plans involve expanding the scan range to improve sensitivity to well-known axion models.',
     link: 'https://arxiv.org/pdf/1706.00209',
     position: [-300, 435],
     color: 'rgba(29,177,0,1)'
@@ -794,7 +794,7 @@ const experiments = [
   },
   {
     name: 'NA62',
-    description: 'The  experiment was built to measure precisely the branching ratio ${\cal B}(K^+\to\pi^+\nu\bar\nu$), and has recently measured this decay with a 5 sigma significance (https://home.cern/news/press-release/physics/na62-experiment-cern-observes-ultra-rare-particle-decay). Thanks to its high intensity beam and detector performance(redundant particle- identification capability, extremely  efficient  veto  system  and  high  resolution  measurements  of  momentum, time, and energy), NA62 has also achieved sensitivities to long-lived light mediators in a variety of new-physics scenarios.',
+    description: 'The  experiment was built to measure precisely the branching ratio \( {\cal B}(K^+ \\to \\pi^+ \\nu \\bar{\\nu}) \), and has recently measured this decay with a 5 sigma significance (https://home.cern/news/press-release/physics/na62-experiment-cern-observes-ultra-rare-particle-decay). Thanks to its high intensity beam and detector performance(redundant particle- identification capability, extremely  efficient  veto  system  and  high  resolution  measurements  of  momentum, time, and energy), NA62 has also achieved sensitivities to long-lived light mediators in a variety of new-physics scenarios.',
     link: 'https://na48.web.cern.ch/Welcome/papers/Overview.html ',
     position: [158, -250],
     color: 'rgba(238,34,13,1)'
