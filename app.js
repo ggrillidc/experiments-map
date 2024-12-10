@@ -16,7 +16,7 @@ const experiments = [
   },
   {
     name: 'DarkSide',
-    description: 'The DarkSide collaboration operated the DarkSide-50 detector, a dual-phase argon Time Projection Chamber, developed for use in a search for direct evidence of dark matter from 2013 to 2020. The experiment was hosted in Hall C of the Laboratori Nazionali del Gran Sasso. The Global Argon Dark Matter Collaboration was formed to unite the global community interested in dark- matter searches using liquid argon target.The collaboration is currently building inside the Gran Sasso National Laboratory Hall - C DarkSide - 20k, a two - phase liquid argon detector with a 50 tonnes active volume, 1000 times more than its predecessor DarkSide - 50. The experiment is expected to begin operation in 2026 and is designed to either detect WIMP dark matter or reach a 90 % CL exclusion sensitivity to WIMP - nucleon cross sections of 6.3e-48 cm ^ 2 at the mass of 1 TeV / c ^ 2.',
+    description: 'The DarkSide collaboration operated the DarkSide-50 detector, a dual-phase argon Time Projection Chamber, developed for use in a search for direct evidence of dark matter from 2013 to 2020. The experiment was hosted in Hall C of the Laboratori Nazionali del Gran Sasso. The Global Argon Dark Matter Collaboration was formed to unite the global community interested in dark- matter searches using liquid argon target.The collaboration is currently building inside the Gran Sasso National Laboratory Hall - C DarkSide - 20k, a two - phase liquid argon detector with a 50 tonnes active volume, 1000 times more than its predecessor DarkSide - 50. The experiment is expected to begin operation in 2026 and is designed to either detect WIMP dark matter or reach a 90 % CL exclusion sensitivity to WIMP - nucleon cross sections of 6.3e-48 cm<sup>2</sup> at the mass of 1 TeV / c<sup>2</sup>.',
     link: 'https://darkside.lngs.infn.it',
     position: [-5, 40],
     color: 'rgba(238,34,13,1)'
@@ -794,7 +794,7 @@ const experiments = [
   },
   {
     name: 'NA62',
-    description: 'The  experiment was built to measure precisely the branching ratio \( {\cal B}(K^+ \\to \\pi^+ \\nu \\bar{\\nu}) \), and has recently measured this decay with a 5 sigma significance (https://home.cern/news/press-release/physics/na62-experiment-cern-observes-ultra-rare-particle-decay). Thanks to its high intensity beam and detector performance(redundant particle- identification capability, extremely  efficient  veto  system  and  high  resolution  measurements  of  momentum, time, and energy), NA62 has also achieved sensitivities to long-lived light mediators in a variety of new-physics scenarios.',
+    description: 'The  experiment was built to measure precisely the branching ratio B(K<sup>+</sup> → &pi<sup>+</sup> &nu;&nu;&#x0304), and has recently measured this decay with a 5 sigma significance (https://home.cern/news/press-release/physics/na62-experiment-cern-observes-ultra-rare-particle-decay). Thanks to its high intensity beam and detector performance(redundant particle- identification capability, extremely  efficient  veto  system  and  high  resolution  measurements  of  momentum, time, and energy), NA62 has also achieved sensitivities to long-lived light mediators in a variety of new-physics scenarios.',
     link: 'https://na48.web.cern.ch/Welcome/papers/Overview.html ',
     position: [158, -250],
     color: 'rgba(238,34,13,1)'
