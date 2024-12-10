@@ -16,7 +16,7 @@ const experiments = [
   },
   {
     name: 'DarkSide',
-    description: 'The DarkSide collaboration operated the DarkSide-50 detector, a dual-phase argon Time Projection Chamber, developed for use in a search for direct evidence of dark matter from 2013 to 2020. The experiment was hosted in Hall C of the Laboratori Nazionali del Gran Sasso. The Global Argon Dark Matter Collaboration was formed to unite the global community interested in dark- matter searches using liquid argon target.The collaboration is currently building inside the Gran Sasso National Laboratory Hall - C DarkSide - 20k, a two - phase liquid argon detector with a 50 tonnes active volume, 1000 times more than its predecessor DarkSide - 50. The experiment is expected to begin operation in 2026 and is designed to either detect WIMP dark matter or reach a 90 % CL exclusion sensitivity to WIMP - nucleon cross sections of 6.3e-48 cm<sup>2</sup> at the mass of 1 TeV / c<sup>2</sup>.',
+    description: 'The DarkSide collaboration operated the DarkSide-50 detector, a dual-phase argon Time Projection Chamber, developed for use in a search for direct evidence of dark matter from 2013 to 2020. The experiment was hosted in Hall C of the Laboratori Nazionali del Gran Sasso. The Global Argon Dark Matter Collaboration was formed to unite the global community interested in dark- matter searches using liquid argon target.The collaboration is currently building inside the Gran Sasso National Laboratory Hall - C DarkSide - 20k, a two - phase liquid argon detector with a 50 tonnes active volume, 1000 times more than its predecessor DarkSide - 50. The experiment is expected to begin operation in 2026 and is designed to either detect WIMP dark matter or reach a 90 % CL exclusion sensitivity to WIMP - nucleon cross sections of 6.3x10<sup>-48</sup> cm<sup>2</sup> at the mass of 1 TeV / c<sup>2</sup>.',
     link: 'https://darkside.lngs.infn.it',
     position: [-5, 40],
     color: 'rgba(238,34,13,1)'
@@ -65,7 +65,7 @@ const experiments = [
   },
   {
     name: 'CAST',
-    description: 'The CERN Axion Solar Telescope (CAST) located at CERN in Switzerland, was designed to detect solar axions. Operational from 2003 to 2021, CAST utilized a powerful 9.2-meter-long superconducting 9 T LHC test magnet to convert solar axions into X-rays. By tracking the Sun for approximately 1.5 hours at sunrise and sunset daily, CAST effectively functioned as a telescope, focusing the expected X-rays onto detectors at the one end of the dipole magnet. While the experiment did not yield an axion signal, it established world-leading constraints on the axion coupling to photons and electrons and pioneered the use of cutting-edge X-ray detector technologies, laying the groundwork for next-generation solar, dark matter, and other axion searches. https://www.nature.com/articles/nphys4109',
+    description: 'The CERN Axion Solar Telescope (CAST) located at CERN in Switzerland, was designed to detect solar axions. Operational from 2003 to 2021, CAST utilized a powerful 9.2-meter-long superconducting 9 T LHC test magnet to convert solar axions into X-rays. By tracking the Sun for approximately 1.5 hours at sunrise and sunset daily, CAST effectively functioned as a telescope, focusing the expected X-rays onto detectors at the one end of the dipole magnet. While the experiment did not yield an axion signal, it established world-leading constraints on the axion coupling to photons and electrons and pioneered the use of cutting-edge X-ray detector technologies, laying the groundwork for next-generation solar, dark matter, and other axion searches. <a href="https://www.nature.com/articles/nphys4109">[Nature Physics volume 13, pages 584–590 (2017)]</a>',
     link: 'https://home.cern/science/experiments/cast',
     position: [138, 210],
     color: 'rgba(29,177,0,1)'
@@ -79,7 +79,7 @@ const experiments = [
   },
   {
     name: 'RADES-CAST',
-    description: 'RADES is short-hand for - Relic Axion Dark-Matter Exploratory Setup and has performed several physics searches for axions around 9-10GHz (https://arxiv.org/abs/2104.13798) On the long term we would like to run babyIAXO as a haloscope.',
+    description: 'RADES is short-hand for - Relic Axion Dark-Matter Exploratory Setup and has performed several physics searches for axions around 9-10GHz (<a href="https://arxiv.org/abs/2104.13798">[2104.13798]</a>) On the long term we would like to run babyIAXO as a haloscope.',
     link: 'link',
     position: [160, 145],
     color: 'rgba(29,177,0,1)'
@@ -205,7 +205,7 @@ const experiments = [
   },
   {
     name: 'SHUKET',
-    description: 'SHUKET is an experiment located at CEA Saclay, built for the detection of dark photon dark matter coupling with electromagnetism. In this setup, a dish antenna with low curvature acts as an emitter for the electromagnetic field and a horn antenna is placed at its curvature center to detect the time averaged power.  https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.035001',
+    description: 'SHUKET is an experiment located at CEA Saclay, built for the detection of dark photon dark matter coupling with electromagnetism. In this setup, a dish antenna with low curvature acts as an emitter for the electromagnetic field and a horn antenna is placed at its curvature center to detect the time averaged power.  <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.035001">[Phys. Rev. D 110 035001]</a>',
     link: 'https://link.aps.org/doi/10.1103/PhysRevLett.122.201801',
     position: [148, -179],
     color: 'rgba(238,34,13,1)'
@@ -275,7 +275,7 @@ const experiments = [
   },
   {
     name: 'LST',
-    description: 'LST (Large Sized Telescope) is an array of four 23m diameter telescope of the IACT class, sensitive between 10 GeV and few TeV. At the moment one of four telescope is operating, the others are under construction. Similarly to MAGIC, they are located at ORM and they detect ALP imprint on gamma-ray spectra from astrophysical sources. LSTs are part of the future Cherenkov Telescope Array Observatory (https://www.cta-observatory.org).',    
+    description: 'LST (Large Sized Telescope) is an array of four 23m diameter telescope of the IACT class, sensitive between 10 GeV and few TeV. At the moment one of four telescope is operating, the others are under construction. Similarly to MAGIC, they are located at ORM and they detect ALP imprint on gamma-ray spectra from astrophysical sources. LSTs are part of the future Cherenkov Telescope Array Observatory (<a href="https://www.cta-observatory.org">[CTA-observatory]</a>).',    
     link: 'https://www.lst1.iac.es/site.html',
     position: [-68, -220],
     color: 'rgba(29,177,0,0.54)'
@@ -787,14 +787,14 @@ const experiments = [
   },
   {
     name: 'PADME',
-    description: "The PADME experiment (Positron Annihilation into Dark Matter Experiment) at INFN's Frascati National Laboratory aims to search for a Dark Photon through positron-on-target collisions at the DAΦNE Beam Test Facility. PADME investigates new physics with minimal model dependence by studying electron-positron interactions in a fixed-target setup, probing the invariant mass range from a few MeV up to about 24 MeV. The experiment conducted two data acquisition campaigns between 2018 and 2020, focusing on the search for an A' (Dark Photon) with a mass near 20 MeV and studying Standard Model processes, such as electron-positron annihilation into γγ pairs [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.107.012008]. Recently, the collaboration has concentrated on examining the Bhabha scattering process to explore the potential existence of the X17 boson, a candidate for explaining the anomaly observed in the nuclear transition of 8Be.",
+    description: 'The PADME experiment (Positron Annihilation into Dark Matter Experiment) at INFN`s Frascati National Laboratory aims to search for a Dark Photon through positron-on-target collisions at the DAΦNE Beam Test Facility. PADME investigates new physics with minimal model dependence by studying electron-positron interactions in a fixed-target setup, probing the invariant mass range from a few MeV up to about 24 MeV. The experiment conducted two data acquisition campaigns between 2018 and 2020, focusing on the search for an A` (Dark Photon) with a mass near 20 MeV and studying Standard Model processes, such as electron-positron annihilation into γγ pairs <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.107.012008">[Phys. Rev. D 107 012008]</a>. Recently, the collaboration has concentrated on examining the Bhabha scattering process to explore the potential existence of the X17 boson, a candidate for explaining the anomaly observed in the nuclear transition of <sup>8</sup>Be.',
     link: 'https://padme.lnf.infn.it/',
     position: [-87, -15],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'NA62',
-    description: 'The  experiment was built to measure precisely the branching ratio B(K<sup>+</sup> → &pi<sup>+</sup> &nu;&nu;&#x0304), and has recently measured this decay with a 5 sigma significance (https://home.cern/news/press-release/physics/na62-experiment-cern-observes-ultra-rare-particle-decay). Thanks to its high intensity beam and detector performance(redundant particle- identification capability, extremely  efficient  veto  system  and  high  resolution  measurements  of  momentum, time, and energy), NA62 has also achieved sensitivities to long-lived light mediators in a variety of new-physics scenarios.',
+    description: 'The  experiment was built to measure precisely the branching ratio B(K<sup>+</sup> → &pi<sup>+</sup> &nu;&nu;&#x0304), and has recently measured this decay with a 5 sigma significance (<a href="https://home.cern/news/press-release/physics/na62-experiment-cern-observes-ultra-rare-particle-decay">[NA62]</a>). Thanks to its high intensity beam and detector performance(redundant particle- identification capability, extremely  efficient  veto  system  and  high  resolution  measurements  of  momentum, time, and energy), NA62 has also achieved sensitivities to long-lived light mediators in a variety of new-physics scenarios.',
     link: 'https://na48.web.cern.ch/Welcome/papers/Overview.html ',
     position: [158, -250],
     color: 'rgba(238,34,13,1)'
