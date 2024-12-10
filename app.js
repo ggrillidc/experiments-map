@@ -23,29 +23,29 @@ const experiments = [
   },
   {
     name: 'XENON',
-    description: 'Description',
+    description: 'The XENON project, based at the Gran Sasso Laboratory in Italy, conducts a series of experiments aimed at detecting dark matter particles, particularly weakly interacting massive particles (WIMPs), by observing rare nuclear recoil interactions in liquid xenon. Its latest and most advanced detector, XENONnT, features a dual-phase time projection chamber (TPC) containing 5.9 tonnes of xenon and 494 photomultiplier tubes to capture interaction signals. Enhancements such as gadolinium-loaded water for improved neutron vetoing and advanced xenon purification systems have boosted its sensitivity. XENONnT began data collection in 2020, continuing a legacy of increasingly advanced detectors since the project started in 2002.',
     link: 'https://xenonexperiment.org',
     position: [15, 60],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'nEDM',
-    description: 'Description',
+    description: 'The nEDM project conducts precision low-energy particle physics experiments to investigate fundamental symmetries and interactions involving neutrons. Its flagship initiative, the n2EDM experiment at the Paul Scherrer Institute, aims to measure the neutron electric dipole moment with tenfold greater sensitivity than previous studies. This could uncover new sources of CP-violation and reveal physics beyond the Standard Model.',
     link: 'https://www.psi.ch/en/nedm',
     position: [40, 95],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'OSQAR',
-    description: 'Description',
+    description: 'The OSQAR (Optical Search for QED Vacuum Bifringence, Axions and Photon Regeneration) experiment at CERN searches for axions, hypothetical particles that could explain dark matter and the matter-antimatter imbalance in the universe. Located in CERN`s magnet- testing facility, OSQAR uses two powerful superconducting magnets to expose a laser beam to a 9 Tesla magnetic field, potentially converting photons into axions.These axions could pass through a barrier and convert back into photons, a phenomenon known as `light shining through a wall`. OSQAR also investigates vacuum properties in electromagnetic fields, advancing research into vacuum - based phenomena.',
     link: 'http://osqar.web.cern.ch/index.html',
     position: [62, 100],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'CROWS',
-    description: 'Description',
-    link: 'link',
+    description: 'The CERN Resonant WISP Search (CROWS) experiment explores Weakly Interacting Sub-eV Particles (WISPs), such as axions and hidden-sector photons, using the "light shining through a wall" technique with microwaves. By employing low-loss microwave cavities and electromagnetic shielding, CROWS detects weak microwave signals indicative of WISP-photon interactions. Its microwave-based approach enhances sensitivity to low-mass particles but limits the maximum detectable particle mass. CROWS has set a lower bound on the coupling constant g=4.5x10<sup>−8</sup> GeV<sup>−1</sup> for axion-like particles with a mass of 7.2 μeV and a coupling constant χ = 4.1x10<sup>−9</sup> for hidden-sector photons at a dark photon mass of 10.8 μeV.',
+    link: 'https://journals.aps.org/prd/abstract/10.1103/PhysRevD.88.075014',
     position: [88, 110],
     color: 'rgba(29,177,0,1)'
   },
@@ -72,7 +72,7 @@ const experiments = [
   },
   {
     name: 'BASE',
-    description: 'Description',
+    description: 'The Baryon Antibaryon Symmetry Experiment (BASE) at CERN studies matter-antimatter asymmetry by precisely comparing the magnetic moments and charge-to-mass ratios of protons and antiprotons <a href="https://link.springer.com/article/10.1140/epjst/e2015-02607-4">[link]</a>. Its setup includes four Penning traps, achieving parts-per-billion measurement precision to test CPT symmetry, which posits that particles and antiparticles should exhibit mirrored properties. BASE has achieved unprecedented accuracy in measuring antiproton magnetic moments and charge-to-mass ratios, performing one of the most stringent CPT symmetry tests for baryons. Its technology also sets stringent limits on axion-photon conversions.',
     link: 'https://base.web.cern.ch/index.php/',
     position: [138, 140],
     color: 'rgba(29,177,0,1)'
@@ -86,14 +86,14 @@ const experiments = [
   },
   {
     name: 'FUNK',
-    description: 'Description',
+    description: 'The FUNK experiment at the Karlsruhe Institute of Technology (KIT) seeks to detect ultralight dark matter particles known as hidden photons using a large spherical mirror as an electromagnetic antenna. This setup enables FUNK to establish new limits on hidden photons—a potential dark matter candidate—by focusing faint electromagnetic waves emitted when hidden photons interact with the mirror. The experiment`s unique `dish-antenna` method facilitates a broad search across various hidden- photon masses.Detection would be confirmed by observing small shifts as Earth moves through the dark - matter field < a href = "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.042001" > [Phys.Rev.D 102 042001]</a >.',
     link: 'https://www.iap.kit.edu/funk/index.php',
     position: [185, 145],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'JEDI',
-    description: 'Description',
+    description: 'The JEDI (Jülich Electric Dipole moment Investigations) collaboration, established in 2011, is dedicated to measuring the electric dipole moments (EDMs) of charged particles in a storage ring. This research is vital for understanding matter-antimatter asymmetry, exploring CP-violation, and testing theories beyond the Standard Model. The team performs high-precision measurements at the COSY storage ring in Jülich, laying the groundwork for a dedicated EDM storage ring in the future.',
     link: 'http://collaborations.fz-juelich.de/ikp/jedi/index.shtml',
     position: [205, 120],
     color: 'rgba(29,177,0,1)'
@@ -107,7 +107,7 @@ const experiments = [
   },
   {
     name: 'WISPDMX',
-    description: 'Description',
+    description: 'The WISPDMX (WISP Dark Matter eXperiment) experiment at the University of Hamburg searches for dark photon dark matter (DPDM) using a resonant cavity setup based on Sikivie’s haloscope concept. WISPDMX scans multiple resonant modes and off-resonant frequencies using a broadband receiver, enhancing its sensitivity to a wide range of DPDM parameters. Its setup includes a large HERA resonant cavity, loop antenna, and an amplifier chain, with data captured via high-speed digital acquisition for real-time spectral analysis. During its first science run, WISPDMX scanned frequencies from 100 MHz to 500 MHz, setting exclusion limits on the DPDM coupling constant, with one candidate signal later identified as radio-frequency interference (RFI).',
     link: 'link',
     position: [250, 85],
     color: 'rgba(238,34,13,1)'
@@ -121,8 +121,8 @@ const experiments = [
   },
   {
     name: 'SHIPS',
-    description: 'Description',
-    link: 'link',
+    description: 'The SHIPS (Solar Hidden Photon Search) experiment, conducted at the Hamburg Observatory, searched for hidden photons produced in the Sun. The experiment employed a specially designed telescope mounted on the Oskar Lühning Telescope. Its innovative design ensured shielding from external light and utilized advanced detectors, such as Fresnel lenses and electron-multiplying CCDs. SHIPS was a collaboration between the Hamburg Observatory, DESY, and the Max Planck Institute.',
+    link: 'https://iopscience.iop.org/article/10.1088/1475-7516/2015/08/011',
     position: [295, 40],
     color: 'rgba(238,34,13,1)'
   },
@@ -163,15 +163,15 @@ const experiments = [
   },
   {
     name: 'BRASS',
-    description: 'Description',
+    description: 'The BRASS (Broadband Radiometric Axion/ALPs Searches Setup) experiment aims to detect dark photons and axion-like particles, both potential candidates for dark matter. Its design features a shielded chamber with a flat conducting conversion surface where electromagnetic signals from dark photons or axion/ALPs are generated. A parabolic mirror focuses these signals onto a detector. Results from the BRASS-p prototype were presented in Reference <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2023/08/077">[1]</a>.',
     link: 'https://www.physik.uni-hamburg.de/en/iexp/gruppe-horns/forschung/brass.html',
     position: [280, -125],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'LOFAR',
-    description: 'Description',
-    link: 'link',
+    description: 'LOFAR (LOw Frequency ARray) is the largest radio telescope operating at Earth’s lowest observable frequencies (~10–240 MHz). It features an advanced network and computing system capable of managing vast data volumes. LOFAR`s mission is to map the universe with unprecedented sensitivity and resolution, surpassing earlier surveys like those by the VLA and GMRT. It remains the most sensitive observatory at these frequencies until the Square Kilometre Array (SKA) becomes operational in the late 2020s. LOFAR`s large- scale interferometric design also enables highly sensitive searches for dark photon dark matter across frequencies ranging from 10 MHz to 10 GHz.',
+    link: 'https://www.astron.nl/telescopes/lofar/',
     position: [258, -146],
     color: 'rgba(238,34,13,1)'
   },
@@ -219,22 +219,22 @@ const experiments = [
   },
   {
     name: 'GrAHal',
-    description: 'Description',
-    link: 'link',
+    description: 'The GrAHal (Grenoble Axion Haloscopes) project leverages the LNCMI-Grenoble`s 43 T hybrid magnet platform to search for axions in the mass range of 1–120 μeV (0.2–30 GHz).Its three parallel approaches include BabyGrAHal(targeting 4–7 GHz using haloscopes with superconducting magnets), GrAHal - CAPP(focusing on 300–600 MHz in collaboration with Korea`s CAPP), and GrAHal-HF-43T (exploring higher frequencies around 12.78 GHz using RF cavities). Innovations such as high-temperature superconducting components and advanced cryogenic systems push the sensitivity limits of axion detection.',
+    link: 'https://grahal.neel.cnrs.fr',
     position: [109, -179],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'DAMIC',
-    description: 'Description',
-    link: 'link',
+    description: 'The DAMIC (DArk Matter In CCDs) experiment employs advanced charge-coupled devices (CCDs) to search for dark matter particles, leveraging their exceptional sensitivity and spatial resolution. These unusually thick CCDs, capable of detecting faint signals of just a few electrons, are designed to capture rare interactions of dark matter with nuclei or electrons while minimizing background noise. A prototype is currently operational at SNOLAB in Canada, and the upcoming DAMIC-M experiment in France will feature the largest CCDs ever built, equipped with groundbreaking signal readout technology enabling single-electron detection. This innovation positions DAMIC-M to significantly advance the search for dark matter.',
+    link: 'https://damic.uchicago.edu',
     position: [85, -172],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'EDELWEISS',
-    description: 'Description',
-    link: 'link',
+    description: 'The EDELWEISS (Expérience pour DEtecter Les WIMPs En Site Souterrain) experiment, located at the Modane Underground Laboratory in France, searches for dark matter by detecting interactions between Weakly Interacting Massive Particles (WIMPs) and germanium crystals. It uses cryogenic ionization-heat bolometers operating at 20 mK, measuring both temperature changes and ionization signals to distinguish WIMP-induced nuclear recoils from background events with over 99.98% efficiency. Shielding and a deep underground location minimize radioactivity interference. EDELWEISS directly tests the WIMP hypothesis by capturing rare, low-energy events consistent with dark matter interactions.',
+    link: 'http://edelweiss.in2p3.fr/Presentation/index.php',
     position: [65, -203],
     color: 'rgba(238,34,13,1)'
   },
@@ -254,8 +254,8 @@ const experiments = [
   },
   {
     name: 'AURIGA',
-    description: 'Description',
-    link: 'link',
+    description: 'AURIGA (Antenna Ultracriogenica Risonante per l`Indagine Gravitazionale Astronomica) was an ultracryogenic resonant- bar gravitational wave detector at the INFN National Laboratory of Legnaro in Italy.Operating since 2004, it featured a 2.2 - ton, 3 - meter aluminum alloy bar cooled to liquid helium temperatures, achieving exceptional sensitivity to gravitational waves at a resonance frequency of approximately 900 Hz.Advanced technologies, including a capacitive transducer and low - noise SQUID amplifier, converted mechanical vibrations into detectable electrical signals.The experiment has completed its activities.',
+    link: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.021302',
     position: [21, -114],
     color: 'rgba(0, 118, 186, 1)'
   },
@@ -282,8 +282,8 @@ const experiments = [
   },
   {
     name: 'NASDUCK',
-    description: 'Description',
-    link: 'link',
+    description: 'The NASDUCK (Noble and Alkali Spin Detectors for Ultralight Coherent Dark Matter) collaboration uses quantum magnetometers to detect ultralight dark matter, particularly axion-like particles (ALPs). ALPs can induce small oscillations in magnetic fields, which NASDUCK measures using a combination of potassium vapor and helium gas in a spin-exchange optical-pumping process. This technique enables some of the most stringent terrestrial constraints on ultralight axions.',
+    link: 'https://arxiv.org/pdf/2209.13588',
     position: [20, 212],
     color: 'rgba(29,177,0,1)'
   },
@@ -303,8 +303,8 @@ const experiments = [
   },
   {
     name: 'PandaX',
-    description: 'Description',
-    link: 'link',
+    description: 'PandaX (Particle and Astrophysical Xenon Experiments) is a series of experiments aimed at detecting dark matter and studying neutrinos using liquid xenon detectors. Its dual-phase time projection chamber (TPC) is designed to detect interactions between dark matter particles, particularly WIMPs, and xenon nuclei. PandaX has evolved through multiple stages, culminating in the advanced PandaX-4T experiment, which enhances detection sensitivity and explores other areas of particle physics, such as neutrino research and double beta decay. Plans for larger detectors are underway to further improve sensitivity and precision.',
+    link: 'https://pandax.sjtu.edu.cn',
     position: [-15, 390],
     color: 'rgba(238,34,13,1)'
   },
@@ -317,7 +317,7 @@ const experiments = [
   },
   {
     name: 'TASEH',
-    description: "The TASEH (Taiwan Axion Search Experiment with Haloscope) is an axion dark matter search experiment in Taiwan, targeting the 10–25 μeV mass range, equivalent to the 2.5–6 GHz frequency band. It utilizes a linear amplifier detector, with future plans to incorporate a quantum-limited Josephson parametric amplifier and develop a tunable large-volume cavity detector to enhance sensitivity. In its first detection run, CD102, conducted in October-November 2021, TASEH excluded axion-photon coupling constants down to 8.1 × 10⁻¹⁴ GeV⁻¹ in the 19.4687–19.8436 μeV mass range at 95% confidence level, allowing to probe the KSVZ model's predictions.",
+    description: "The TASEH (Taiwan Axion Search Experiment with Haloscope) is an axion dark matter search experiment in Taiwan, targeting the 10–25 μeV mass range, equivalent to the 2.5–6 GHz frequency band. It utilizes a linear amplifier detector, with future plans to incorporate a quantum-limited Josephson parametric amplifier and develop a tunable large-volume cavity detector to enhance sensitivity. In its first detection run, CD102, conducted in October-November 2021, TASEH excluded axion-photon coupling constants down to 8.1 × 10<sup>-14</sup> GeV<sup>-1</sup> in the 19.4687–19.8436 μeV mass range at 95% confidence level, allowing to probe the KSVZ model's predictions.",
     link: 'https://arxiv.org/pdf/2205.01477',
     position: [-75, 530],
     color: 'rgba(29,177,0,1)'
@@ -331,8 +331,8 @@ const experiments = [
   },
   {
     name: 'ChangE',
-    description: 'Description',
-    link: 'link',
+    description: 'The ChangE (Coupled Hot Atom eNsembles to search for liGht dark mattEr) experiment uses Coupled Hot Atom Ensembles to search for new physics. It employs a hybrid spin-resonance regime that significantly broadens the bandwidth of the ²¹Ne nuclear spin while retaining high sensitivity, enabling a comprehensive broadband search for axion-like particles across a frequency range of 0.01–1000 Hz. The experiment sets new constraints on axion-neutron and axion-proton couplings, achieving the strongest laboratory constraints in certain frequency ranges and surpassing astrophysical limits <a href="https://arxiv.org/pdf/2306.08039">[2306.08039]</a>. The ChangE-NMR setup incorporates an ultrasensitive atomic magnetometer based on hybrid alkali-noble-gas spin ensembles operating near the Spin-Exchange Relaxation-Free regime. This approach leverages the low gyromagnetic ratio of ²¹Ne spins, offering superior noise suppression compared to conventional magnetometers. Unlike standard comagnetometers, which are limited in sensitivity or frequency range, ChangE uses a ferrite magnetic shield to achieve sub-fT magnetic noise, enhancing its ability to explore physics beyond the Standard Model <a href="https://www.nature.com/articles/s42005-024-01713-7">[Nature]</a>).',
+    link: 'https://www.nature.com/articles/s42005-024-01713-7',
     position: [75, 462],
     color: 'rgba(29,177,0,1)'
   },
@@ -352,8 +352,8 @@ const experiments = [
   },
   {
     name: 'SAPPHIRES',
-    description: 'Description',
-    link: 'link',
+    description: 'The SAPPHIRES collaboration investigates sub-eV axion-like particles (ALPs) using stimulated resonant photon-photon collisions, where two laser beams interact to create and decay ALP states in a vacuum. This process, involving energy-momentum conservation, generates a distinct signal photon and is described as vacuum four-wave mixing. The Collaboration has refined techniques to suppress background noise from residual gas and optical elements, crucial for isolating ALP signals. In the SAPPHIRES00 search, sub-mJ-level pulse lasers were used, while SAPPHIRES01 increased laser energies by an order of magnitude, revealing new background sources from optical elements.',
+    link: 'https://spphrs.hiroshima-u.ac.jp/',
     position: [-15, 630],
     color: 'rgba(29,177,0,1)'
   },
@@ -490,8 +490,8 @@ const experiments = [
   },
   {
     name: 'ABRACADABRA',
-    description: 'Description',
-    link: 'link',
+    description: 'The ABRACADABRA experiment (A Broadband/Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus) searches for axion dark matter by measuring the tiny magnetic fields axions induce in a superconducting toroidal magnet. The experiment uses a superconducting pickup loop housed in a cryogenic environment to minimize noise and enhance sensitivity. The latest iteration, ABRACADABRA-10 cm, operates at ultra-low temperatures, employing advanced readout techniques such as a superconducting quantum interference device (SQUID).',
+    link: 'https://abracadabra.mit.edu',
     position: [55, -365],
     color: 'rgba(29,177,0,1)'
   },
@@ -525,8 +525,8 @@ const experiments = [
   },
   {
     name: 'SENSEI',
-    description: 'Description',
-    link: 'link',
+    description: 'The SENSEI (Sub-Electron-Noise Skipper-CCD Experimental Instrument) experiment is a cutting-edge dark matter detection project focused on searching for ultralight dark matter particles interacting with electrons. It utilizes advanced skipper CCD (Charge-Coupled Device) technology capable of detecting single electron events with unparalleled precision. By leveraging these low-threshold detectors, SENSEI aims to explore previously inaccessible regions of parameter space for dark matter-electron interactions.',
+    link: 'https://sensei-skipper.github.io/#',
     position: [165, -385],
     color: 'rgba(0, 118, 186, 1)'
   },
