@@ -100,7 +100,7 @@ const experiments = [
   },
   {
     name: 'GEO600',
-    description: 'Description',
+    description: 'GEO600 is a ground-based interferometric gravitational wave detector located near Hannover, Germany.  Together with LIGO (USA), VIRGO (Italy) and KAGRA (Japan), GEO600 is part of an international network of gravitational waves observatories. GEO600 features a dual-recycled Michelson interferometer with mirrors suspended as triple pendula; the arms of the Michelson are folded once in the vertical plane, to yield an effective arm length of 1200 m.  The experiment, operating since 2001, stood apart from its contemporary first-generation gravitational-waves detector counterparts, given the incorporation of more innovative but also riskier technologies. After 2009 the GEO600 group initiated a comprehensive upgrade program, under the label GEO-HF. This  program, currently ongoing, targets mainly a sensitivity improvement at high frequencies.',
     link: 'https://www.geo600.org',
     position: [230, 95],
     color: 'rgba(0, 118, 186, 1)'
@@ -191,8 +191,8 @@ const experiments = [
   },
   {
     name: 'AION',
-    description: 'Description',
-    link: 'link',
+    description: 'AION (Atom Interferometer Observatory and Network) is a proposed experimental program using cold strontium atoms to search for ultra-light dark matter, to explore gravitational waves in the mid-frequency range and to probe other frontiers in fundamental physics. The concept of the experiment is based on two atom interferometers, placed one above the other, in a vacuum system over 10 m tall, with a laser beam running vertically through both.  The laser pulses forces transitions between the ground and excited states of the atoms of clouds prepared at different heights along the vacuum system. The laser pulses act as beam splitters and mirrors for the atomic de Broglie waves, generating a quantum superposition of two paths and then recombining them. In this picture, perturbations induced by gravitational waves and  ultra-light dark matter would appear as slight modifications of the differential phase between two atom interferometers. A first prototype detector, using a 10-meter vertical vacuum tube, is currently under construction at the University of Oxford. Full scale detectors, spanning first 100 m and ultimately 1 km underground, are part of the planned program. ',
+    link: 'https://www.imperial.ac.uk/high-energy-physics/research/experiments/aion/',
     position: [190, -173],
     color: 'rgba(0, 118, 186, 1)'
   },
@@ -448,29 +448,29 @@ const experiments = [
   // color: 'rgba(29,177,0,1)' },
   {
     name: 'POLARBEAR',
-    description: 'Description',
-    link: 'link',
+    description: 'POLARBEAR is a cosmic microwave background (CMB) experiment situated on the 3.5-meter diameter Huan Tran Telescope at the James Ax Observatory located at Cerro Toco in the Atacama Desert in Northern Chile. It is designed to make measurements of the CMB polarization on small angular scales in order to detect the B-mode polarization and put limits on inflation. Additionally, a second objective is to reconstruct the lensing potential of the CMB with hopes of providing limits on the neutrino mass. The first POLARBEAR receiver was deployed to the Huan Tran Telescope in 2012.',
+    link: 'https://lambda.gsfc.nasa.gov/product/polarbear/index.html',
     position: [-240, -320],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'HAWC',
-    description: 'Description',
-    link: 'link',
+    description: 'The High Altitude Water Cherenkov Experiment (HAWC) is a gamma-ray and cosmic ray observatory located on the flanks of the Sierra Negra volcano in the Mexican state of Puebla at an altitude of 4100 meters. The experiment exploits Cherenkov radiation to detect showers induced by primary cosmic rays with energies between 100 GeV and 100 TeV. The observatory is a second-generation facility, based on the experience collected by the  Milagro gamma-ray observatory in New Mexico, its predecessor. HAWC consists of large metal tanks, 7.3 m wide by 5 m high, containing a light-tight bladder holding 188,000 liters of water. The Cherenkov light readout is performed via 3-8" and 1-10" high QE photomultiplier tubes. ',
+    link: 'https://www.hawc-observatory.org/',
     position: [-75, -610],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'LIGO',
-    description: 'Description',
-    link: 'link',
+    description: 'The Laser Interferometer Gravitational-Wave Observatory (LIGO) is a large-scale physics experiment and observatory designed to detect cosmic gravitational waves and to develop gravitational-wave observations as an astronomical tool. The LIGO collaboration operates two laboratories in the United States, separated by  3002 kilometers: the LIGO Livingston Observatory, in Livingston, Louisiana, and the LIGO Hanford Observatory, on the DOE Hanford Site, located near Richland, Washington. Both observatories exploit laser interferometers housed in an L-shaped, ultra high-vacuum system, measuring 4 kilometers on each side. LIGO operations began in 2002; on 11 February 2016 the LIGO collaboration announced - together with the VIRGO collaboration - the first observation of gravitational waves, matching the predictions of general relativity. The observations demonstrated the existence of binary stellar-mass black hole systems and the first observation of a binary black hole merger. ',
+    link: 'https://www.ligo.caltech.edu/',
     position: [-20, -490],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
     name: 'ALPHA',
-    description: 'Description',
-    link: 'link',
+    description: 'The Axion Longitudinal Plasma HAloscope (ALPHA) Consortium is a new experimental collaboration aimed at building a plasma haloscope to search for axions and dark photons. In a plasma halosocope a tuneable wire metamaterial is placed inside a strong solenoidal magnet, tuning into different potential axion frequencies and using ultra-low noise electronics to read out any resulting signals. Such technology would allow one to push the limits of traditional cavity haloscopes, generally limited in volume by the Compton wavelength of the dark matter. Two data-taking phases are foreseen for ALPHA: a first stage operating with commercially available technology (ALPHA Stage I) and the second using an upgraded detector design (ALPHA Stage II). Such program would probe the QCD axion in the 2x10<sub>-5</sub> - 2x10<sub>-4</sub> eV mass range. ',
+    link: 'https://axion-dm.yale.edu/alpha-experiment',
     position: [-10, -570],
     color: 'rgba(29,177,0,1)'
   },
@@ -483,8 +483,8 @@ const experiments = [
   },
   {
     name: 'LAMPOST',
-    description: 'Description',
-    link: 'link',
+    description: 'LAMPOST (Light A′ Multilayer Periodic Optical SNSPD Target), is a proof-of-concept experiment searching for dark photon dark matter in the eV mass range, via coherent absorption in a multi-layer dielectric haloscope. In the LAMPOST concept, the cosmogenic dark photons convert to Standard Model photons in a layered dielectric target. These photons are focused by a lens onto a small, low-noise superconducting nanowire single-photon detector (SNSPD). With this technology an efficient photon detection with a dark count rate as low as ∼6x10<sub>−6</sub> counts/s can be achieved. The LAMPOST collaboration set competitive constraints in the dark photon parameter space, finding no evidence for dark photon dark matter with mass ∼ 0.7-0.8 eV and kinetic mixing greater than 10<sub>−12</sub>. Further improvements are foreseen after the upgrade of the SNSPDs,  allowing one to probe significant new parameter space for dark photon and axion dark matter in the meV to 10 eV mass range.',
+    link: 'https://arxiv.org/pdf/2110.01582',
     position: [30, -425],
     color: 'rgba(238,34,13,1)'
   },
@@ -504,22 +504,22 @@ const experiments = [
   },
   {
     name: 'SHAFT',
-    description: 'Description',
-    link: 'link',
+    description: 'SHAFT (Search for Halo Axions with Ferromagnetic Toroids) is an experiment searching for the electromagnetic interaction of axion-like dark matter in the three-decades mass range from 12 peV to 12 neV. The detection scheme is based on the modification of Maxwell’s equations in the presence of axion-like dark matter,  which mixes with a strong, static magnetic field, resulting in an oscillation of the latter. The SHAFT detector makes use of a a toroidally-shaped permeable material to enhance the magnitude of the static magnetic field B of a factor ~25, thus improving the sensitivity to axion-like dark matter.  SQUID magnetic flux sensors are used to detect signals, achieving a magnetic sensitivity of 150 aT/sqrt(HZ). With a 41-hours data-taking SHAFT improved the best limits on the magnitude of the axion-like dark matter electromagnetic coupling constant over part of the targeted mass range, reaching 4x10<sub>−11</sub> GeV<sub>−1</sub> at 20 peV.',
+    link: 'https://arxiv.org/pdf/2003.03348',
     position: [95, -342],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'HAYSTAC',
-    description: 'Description',
-    link: 'link',
+    description: 'The Haloscope At Yale Sensitive To Axion CDM (HAYSTAC) Experiment is a tunable microwave cavity search for cold dark matter (CDM) axions, with masses above 20 μeV.  Located at Yale’s Wright Laboratory in New Haven, HAYSTAC explores axion dark matter (ADM) in the galactic halo by searching for a resonant photon signal produced by axion conversion in a magnetic field. It uses dilution refrigeration and cutting-edge parametric amplification techniques to maximize the signal-to-noise ratio and dramatically reduce scan times, advancing the search for ADM to new regions of the parameter space. Conceived as a high-frequency offshoot of the earlier ADMX experiment,  HAYSTAC has been able to probe mass ranges above 23 μeV in the cosmologically sensitive region of the axion parameter space.',
+    link: 'https://haystac.yale.edu/',
     position: [118, -357],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'SNO',
-    description: 'Description',
-    link: 'link',
+    description: 'The Sudbury Neutrino Observatory (SNO) was a neutrino observatory located 2100 m underground in Vale`s Creighton Mine in Sudbury, Ontario, Canada.The main target of the experiment was the study of solar neutrino oscillations, whose observation was confirmed by the SNO collaboration in 2001. The SNO detector target consisted of 1,000 tonnes of heavy water contained in a 6-m - radius acrylic vessel; the detection strategy was based on the Cherenkov light emission following the neutrino interaction  with deuterons.The Cherenkov light collection was performed via approximately 9, 600 photomultiplier tubes.Other than the outstanding results in neutrino physics, leading to the  Nobel Prize co- award to the director of the experiment Art McDonald in 2015, the re - analysis of SNO data provided strong constraints on the solar axion - nucleon couplings.The construction of the SNO successor, the SNO+ experiment, has been under development since 2016 <a href="https://snoplus.phy.queensu.ca/">[SNO+]</a>.',
+    link: 'https://sno.phy.queensu.ca/',
     position: [138, -390],
     color: 'rgba(29,177,0,1)'
   },
@@ -532,71 +532,71 @@ const experiments = [
   },
   {
     name: 'SuperCDMS',
-    description: 'Description',
-    link: 'link',
+    description: 'SuperCDMS at SNOLAB is the successor of the previous generation of CDMS (Cryogenic Dark Matter Search). These experiments, designed to directly detect particle dark matter, use arrays of semiconductor detectors operated at millikelvin temperatures.  SuperCDMS at SNOLAB, in particular, uses germanium and silicon crystals. Dedicated sensors, aimed at detecting the phonons and the ionization charges generated  by the elastic collisions between the target nuclei and dark matter particles, are deposited on the crystals. The phonon sensors consist of arrays of tiny superconducting transition edge sensors, composed of microscopic strips of tungsten coupled to aluminum "fins", collecting phonon energy from the crystal.  The SuperCDMS detector, currently under commissioning, feature 4 Ge/Si towers, for a total of 30 kg of active material. This results in an unprecedented projected sensitivity for dark matter candidates with masses below 1 GeV.',
+    link: 'https://supercdms.slac.stanford.edu/',
     position: [190, -425],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
     name: 'ARIADNE',
-    description: 'Description',
-    link: 'link',
+    description: 'ARIADNE (Axion Resonant InterAction DetectioN Experiment) is a table-top experiment searching for QCD axions by using techniques based on nuclear magnetic resonance (NMR).  The experiment aims to detect spin-dependent, axion-mediated interactions between a laser-polarized helium-3 gas and an unpolarized rotating tungsten mass source, resulting in a fictitious `magnetic field`. The signal is sensed with a superconducting quantum interference device (SQUID).  In order to screen the 3He sample from ordinary magnetic noise the experiment relies on a superconducting magnetic shielding. ARIADNE has the potential to probe the theoretically interesting QCD axion mass range of 0.1-10 meV, independently of cosmological assumptions. The detector hardware is currently being developed and tested.',
+    link: 'https://npl.illinois.edu/research/ARIADNE',
     position: [210, -500],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'SQuAD',
-    description: 'Description',
-    link: 'link',
+    description: 'Superconducting Qubit Advantage for Dark Matter (SQuAD) is a microwave cavity effort searching for axions and hidden photons, in a frequency region around 6.011 GHz (24.86 μeV).  The search at such high frequency is particularly challenging, requiring a limited cavity volume to maintain the resonance, which results in low signal photon rate. Thus, sub-SQL (standard quantum limited) detection techniques are required for this search. SQuAD exploits a novel microwave photon counting technique: the experiment operates a superconducting qubit to make repeated quantum non-demolition measurements of cavity photons and applies a hidden Markov model analysis to reduce the noise to 15.7 dB below the quantum limit. The overall detector performance is limited by a residual background of real photons.  With such a device, the collaboration performed a hidden photon search constraining the kinetic mixing angle to ϵ ≤ 1.68x10<sub>−15</sub> in the targeted band. This unprecedented sensitivity motivates the realization of  future cavity-based searches for axions and hidden photons in the 3–30 GHz range.',
+    link: 'https://arxiv.org/abs/2008.12231',
     position: [187, -523],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'BREAD',
-    description: 'Description',
-    link: 'link',
+    description: 'The Broadband Reflector Experiment for Axion Detection (BREAD) is a planned haloscope experiment searching for bosonic dark matter across the [10<sub>−3</sub>, 1] eV ([0.24, 240] THz) mass range.  The proposed technique exploits a cylindrical metal barrel immersed in an external magnetic field to convert dark matter into photons. The emitted photons are then focused via a novel-design coaxial parabolic reflector towards a photon sensor. Such layout enhances the signal-to-noise ratio and ensures that the emitting surface and magnetic field are parallel. First results with this technique have been obtained using a room-temperature dish antenna setup called GigaBREAD, with a cylindrical metallic emission surface of 0.5 m^2. A first 24-days-long data taking did not show evidence for dark photon dark matter in the 44-52 μeV mass range, excluding dark photon mixing parameters χ ≳ 10<sub>−12</sub> at 90% confidence level. This result surpassed existing constraints by a factor of 100 in the mass range below 49 μeV.',
+    link: 'https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.132.131004',
     position: [168, -555],
     color: 'rgba(29,177,0,1)'
   },
   {
     name: 'SQMS',
-    description: 'Description',
-    link: 'link',
+    description: 'The Superconducting Quantum Materials and Systems (SQMS) Center, led by Fermilab, is a collaborative hub aiming to advance quantum science and technology.  Its core mission spans on quantum information science, material science, applied and theoretical superconductivity, computational science, particle and condensed matter physics, cryogenics, microwave devices, industry applications and more.  Among the other efforts, the SQMS Center is exploring the use of high-quality-factor superconducting radio-frequency (SRF) cavities for the search of dark matter. This includes a family of SRF haloscope experiments known as SERAPH (SupERconducting Axion and Paraphoton Haloscope), whose first phase consists in a proof-of-principle dark photon search using existing accelerator SRF cavities.  A first exploratory measurement was performed with a TESLA-shaped single-cell niobium cavity with resonant frequency f0 ≈ 1.3 GHz (quality factor Q ≈ 4.7e9) and a HEMT (high electron mobility transistor) amplifier. Such a preliminary measurement excluded dark photon dark matter with kinetic mixing strength of χ > 1.5x10<sub>−16</sub> for a dark photon mass of mA′ = 5.35 μeV, achieving the deepest exclusion limit by almost an order of magnitude and proving the outstanding potential of the adopted experimental technique.',
+    link: 'https://sqmscenter.fnal.gov/',
     position: [148, -575],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'DarkSRF',
-    description: 'Description',
-    link: 'link',
+    description: 'DARKSRF is an experiment at Fermilab exploiting superconducting radio-frequency (SRF) cavities to perform a “light-shining-through-wall” (LSW) search with a novel approach. The experimental setup features two 1.3 GHz high-quality factor SRF cavities,  made out of bulk niobium. The cavities, selected to have resonant frequencies of the fundamental TM010 modes as close to each other as possible, are mounted 60 cm apart (center to center), oriented along a common axis, and cooled in a bath of liquid helium to around 2 K . In this setup, one cavity, storing SM photons, is operated as an "emitter", and the other one as a "receiver". The use of SRF cavities to perform the search provides a multiple-orders-of-magnitude enhancement both in the number of stored photons in the emitter and in the detection sensitivity of the receiver, with respect to "traditional" resonant cavities. Thanks to this enhancement DARKSRF established, with a proof-of-principle run, a new exclusion limit for dark photon kinetic mixing as small as ϵ = 1.6x10<sub>−9</sub>, providing the most stringent constraints  in the 2.1x10<sub>−7</sub> – 5.7x10<sub>−6</sub> eV mass range. ',
+    link: 'https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.130.261801',
     position: [115, -615],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'LZ',
-    description: 'Description',
-    link: 'link',
+    description: 'LUX-ZEPLIN is a dark matter experiment operating nearly a mile underground at the Sanford Underground Research Facility in Lead, South Dakota, USA.  Its primary goal is to detect weakly interacting massive particles (WIMPs). The detector consists in a dual-phase time projection chamber (TPC) composed of a 7 tonnes liquid xenon target and a small region of gaseous xenon above. The TPC is enclosed in a cryostat, keeping the xenon temperature at about 178 K, and surrounded by several layers of active and passive shielding to reduce backgrounds. These include a thin region containing about 2 tonnes of liquid xenon, the "skin detector".  A further set of acrylic tanks holding gadolinium-loaded liquid scintillator, for more efficient neutron capture and rejection, surrounds the assembly. Recent results, based on 280 days (4.2 tonne-years) of data with no WIMPs observation, allowed the LUX-ZEPLIN collaboration to set unprecedented constraints on the WIMP parameter space. ',
+    link: 'http://lz.ac.uk/',
     position: [85, -590],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'SNIPE-Hunt',
-    description: 'Description',
+    description: 'The Search for Non-Interacting Particles Experimental Hunt (SNIPE Hunt) is an experimental effort aiming to detect dark-matter-induced magnetic-field patterns by performing correlated measurements with a network of magnetometers, placed in "quiet" magnetic environments. The experiment exploits the whole Earth acting as a transducer to convert ultralight bosonic dark matter into an oscillating magnetic field with a characteristic pattern, resulting in a clear signature for both ultralight hidden photons and axion dark matter particles. The first coordinated SNIPE-Hunt science run was performed in July 2022: the experimental setup consisted in battery-operated Vector Magnetoresistive (VMR) magnetometers located at three sites chosen for the low magnetic interference from anthropic sources. From the analysis of this first science run, consisting in ~48h of detector operation, no signal evidence was observed. The null result constrained the hidden-photon and axion dark matter parameter space for Compton frequencies in the 0.5-5.0 Hz range. ',
     link: ' https://arxiv.org/abs/2306.11575#',
     position: [220, -320],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'SNIPE-Hunt',
-    description: 'Description',
+    description: 'The Search for Non-Interacting Particles Experimental Hunt (SNIPE Hunt) is an experimental effort aiming to detect dark-matter-induced magnetic-field patterns by performing correlated measurements with a network of magnetometers, placed in "quiet" magnetic environments. The experiment exploits the whole Earth acting as a transducer to convert ultralight bosonic dark matter into an oscillating magnetic field with a characteristic pattern, resulting in a clear signature for both ultralight hidden photons and axion dark matter particles. The first coordinated SNIPE-Hunt science run was performed in July 2022: the experimental setup consisted in battery-operated Vector Magnetoresistive (VMR) magnetometers located at three sites chosen for the low magnetic interference from anthropic sources. From the analysis of this first science run, consisting in ~48h of detector operation, no signal evidence was observed. The null result constrained the hidden-photon and axion dark matter parameter space for Compton frequencies in the 0.5-5.0 Hz range. ',
     link: ' https://arxiv.org/abs/2306.11575#',
     position: [40, -590],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'E&ouml;t-Wash',
-    description: 'Description',
-    link: 'link',
+    description: 'The Eöt-Wash group at the University of Washington, is a collaboration focusing on laboratory tests of gravitational and sub-gravitational physics. The collaboration is involved in several parallel efforts, from the realization of table-top experiments to test weak-field gravity and search for new interactions weaker than gravity, to the development of precision instrumentation for the LIGO experiment.  The conducted researches include tests of  the Einstein equivalence principle, searching for deviations that could hint at new physics, such as dark matter or additional forces. Recent advancements include precise measurements of the weak equivalence principle (WEP) using torsion balances, with the latest results showing no violations of the WEP at small scales.  Analogous results have been obtained in the search for violations in the Newtonian inverse-square law. In the context of the LIGO experiment, the collaboration focused on the realization on sophisticated beam rotation sensors and seismic tiltmeters. ',
+    link: 'https://www.npl.washington.edu/eotwash/node/1',
     position: [200, -650],
     color: 'rgba(0, 118, 186, 1)'
   },
@@ -616,8 +616,8 @@ const experiments = [
   },
   {
     name: 'LIGO',
-    description: 'Description',
-    link: 'link',
+    description: 'The Laser Interferometer Gravitational-Wave Observatory (LIGO) is a large-scale physics experiment and observatory designed to detect cosmic gravitational waves and to develop gravitational-wave observations as an astronomical tool. The LIGO collaboration operates two laboratories in the United States, separated by  3002 kilometers: the LIGO Livingston Observatory, in Livingston, Louisiana, and the LIGO Hanford Observatory, on the DOE Hanford Site, located near Richland, Washington. Both observatories exploit laser interferometers housed in an L-shaped, ultra high-vacuum system, measuring 4 kilometers on each side. LIGO operations began in 2002; on 11 February 2016 the LIGO collaboration announced - together with the VIRGO collaboration - the first observation of gravitational waves, matching the predictions of general relativity. The observations demonstrated the existence of binary stellar-mass black hole systems and the first observation of a binary black hole merger. ',
+    link: 'https://www.ligo.caltech.edu/',
     position: [125, -770],
     color: 'rgba(0, 118, 186, 1)'
   },
