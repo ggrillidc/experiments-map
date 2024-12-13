@@ -553,7 +553,7 @@ const experiments = [
   },
   {
     name: 'BREAD',
-    description: 'The Broadband Reflector Experiment for Axion Detection (BREAD) is a planned haloscope experiment searching for bosonic dark matter across the [10<sup>−3</sup>, 1] eV ([0.24, 240] THz) mass range.  The proposed technique exploits a cylindrical metal barrel immersed in an external magnetic field to convert dark matter into photons. The emitted photons are then focused via a novel-design coaxial parabolic reflector towards a photon sensor. Such layout enhances the signal-to-noise ratio and ensures that the emitting surface and magnetic field are parallel. First results with this technique have been obtained using a room-temperature dish antenna setup called GigaBREAD, with a cylindrical metallic emission surface of 0.5 m^2. A first 24-days-long data taking did not show evidence for dark photon dark matter in the 44-52 μeV mass range, excluding dark photon mixing parameters χ ≳ 10<sup>−12</sup> at 90% confidence level. This result surpassed existing constraints by a factor of 100 in the mass range below 49 μeV.',
+    description: 'The Broadband Reflector Experiment for Axion Detection (BREAD) is a planned haloscope experiment searching for bosonic dark matter across the [10<sup>−3</sup>, 1] eV ([0.24, 240] THz) mass range.  The proposed technique exploits a cylindrical metal barrel immersed in an external magnetic field to convert dark matter into photons. The emitted photons are then focused via a novel-design coaxial parabolic reflector towards a photon sensor. Such layout enhances the signal-to-noise ratio and ensures that the emitting surface and magnetic field are parallel. First results with this technique have been obtained using a room-temperature dish antenna setup called GigaBREAD, with a cylindrical metallic emission surface of 0.5 m<sup>2</sup>. A first 24-days-long data taking did not show evidence for dark photon dark matter in the 44-52 μeV mass range, excluding dark photon mixing parameters χ ≳ 10<sup>−12</sup> at 90% confidence level. This result surpassed existing constraints by a factor of 100 in the mass range below 49 μeV.',
     link: 'https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.132.131004',
     position: [168, -555],
     color: 'rgba(29,177,0,1)'
@@ -609,8 +609,8 @@ const experiments = [
   },
   {
     name: 'ORPHEUS',
-    description: 'Description',
-    link: 'link',
+    description: 'Orpheus is a dielectrically loaded Fabry-Perot open cavity, presenting a periodic dielectric structure. It is designed to search for axions and dark photons around 16 GHz with over 1 GHz of tuning range. The cavity tunes by changing its length, and the dielectric plate positions are adjusted appropriately. It has set limits on dark photons with mass between 65.5 µeV and 69.3 µeV. With small changes and several experimental iterations, the same apparatus may be used to probe dark photon masses from 45 µeV to 80 µeV. A 1.5 T magnet is going to be included in the setup in order to allow Orpheus to probe also axions. ',
+    link: 'https://arxiv.org/pdf/2204.03818',
     position: [160, -785],
     color: 'rgba(238,34,13,1)'
   },
@@ -623,43 +623,43 @@ const experiments = [
   },
   {
     name: 'MAGIS',
-    description: 'Description',
-    link: 'link',
+    description: 'The Matter-wave Atomic Gradiometer Interferometric Sensor (MAGIS-100) is a quantum sensor under construction at Fermilab, aiming to explore fundamental physics with a 100-meter-long atom interferometer. It will test quantum mechanics in new regimes and search for ultralight dark matter and gravitational waves. In particular, MAGIS-100 will be sensitive to dark matter in the mass range 10<sup>-22</sup> eV - 10<sup>-15</sup> eV, which may exert accelerations on test masses (e.g., vector bosons coupled to B-L), cause spin precession (e.g., axions) and change the value of fundamental constants (e.g., scalar fields interacting with electrons). The sensitivity of MAGIS-100 can be improved by follow-on experiments, such as MAGIS-km (a km-scale terrestrial detector) and MAGIS-Space (a satellite-based detector).',
+    link: 'https://magis.fnal.gov/',
     position: [102, -765],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
     name: 'DM-Radio',
-    description: 'Description',
-    link: 'link',
+    description: 'DMRadio utilizes the axion-photon interaction to search for dark matter axions. Using high Q LC resonators, the experiment resonantly enhances the effective axion current which is then picked up with a flux-to-voltage amplifier like a dc SQUID. DMRadio-50L is designed to search for axions in the 5 kHz to 5 MHz (20 peV to 20 neV) regime. DMRadio-m<sup>3</sup> has sensitivity to DFSZ axions in the 30 MHz to 200 MHz (120-820 neV) regime.  Future advancements in quantum devices and magnet technology will allow DMRadio-GUT to search for DFSZ axions in the 100 kHz to 30 MHz (0.4-120 neV) range.',
+    link: 'www.dmradio.org',
     position: [78, -785],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'QUALIPHIDE',
-    description: 'Description',
-    link: 'link',
+    description: 'QUALIPHIDE (QUAntum LImited PHotons In the Dark Experiment) is an experiment carried out at the Jet Propulsion Laboratory, California Institute of Technology, constraining hidden photons dark matter, using a cryogenic emitter-receiver-amplifier spectroscopy setup. In particular, a dish haloscope setup is placed into a 20 mK environment and the output is coupled to a quantum-limited travelling-wave kinetic inductance parametric amplifier (TW-KIPA), providing for near quantum-limited noise performance.',
+    link: 'https://arxiv.org/pdf/2209.03419',
     position: [45, -815],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'Dark E-field Radio',
-    description: 'Description',
-    link: 'link',
+    description: 'The Dark E-Field Radio experiment is a Fast-Fourier-Transform-based radio-frequency spectrum analyzer, searching for a small power excess on the wide band thermal noise spectrum received from an antenna in a cavity. The goal of the experiment is to measure weak, coherent, electric fields embedded in a wide-bandwidth background. Searches in the 50-300 MHz range have been performed, setting limits on the dark photon kinetic mixing for masses between 0.2 and 1.2 µeV. Using new antennas and microwave electronics, the same technique can be applied at higher frequencies, up to the sub-THz band.',
+    link: 'https://arxiv.org/abs/2101.02805',
     position: [18, -835],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'BACON',
-    description: 'Description',
-    link: 'link',
+    description: 'BACON (Boulder Atomic Clock Optical Network) is a network of three optical clocks based on optical transitions in 27Al+ , 171Yb and 87Sr. The network is located at the National Institute of Standards and Technology (NIST) and JILA in Boulder, Colorado. The frequency ratios of these three clocks have been measured with fractional uncertainties below 10<sup>-17</sup>. The precision of such a measurement has been used to constrain ultralight bosonic dark matter coupled to standard model fields.',
+    link: 'https://www.nature.com/articles/s41586-021-03253-4',
     position: [-20, -675],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
     name: 'SuperMAG',
-    description: 'Description',
-    link: 'link',
+    description: 'SuperMAG is a worldwide collaboration of organizations and national agencies that, over the last 6 decades, has operated and maintained nearly 600 ground based magnetometers. It has been measuring the geomagnetic activity since the early 1970s, through 3D vector measurements of the magnetic field obtained from ground based magnetometers. SuperMAG is focused on the variations caused by electric currents flowing in the ionosphere and magnetosphere and hence subtracts the dominant and slowly varying Earth main field. SuperMAG service includes data with two different temporal resolutions, 1-min and 1-sec. The latter is a subset of the former as not all stations provide 1-sec data. SuperMAG data have been used to set constraints on ultralight axion dark matter interacting with photons in <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.095007">[Phys.Rev.D 105 (2022) 9, 095007]</a> .',
+    link: 'https://supermag.jhuapl.edu/',
     position: [290, 472],
     color: 'rgba(29,177,0,1)'
   },
@@ -703,78 +703,78 @@ const experiments = [
   },
   {
     name: 'Chandra',
-    description: 'Description',
-    link: 'link',
+    description: 'The Chandra X-ray Observatory is a space telescope launched in 1999 by NASA. It is an Earth satellite in a 64-hour orbit. Due to its high angular resolution of 0.5 arcseconds, it is sensitive to X-ray sources (in the 0.1 - 10 keV range) 100 times fainter than any previous X-ray telescope.',
+    link: 'https://chandra.harvard.edu/',
     position: [370, 655],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'NuSTAR',
-    description: 'Description',
-    link: 'link',
+    description: 'The NuSTAR (Nuclear Spectroscopic Telescope Array) is a high-energy X-ray telescope launched in 2012, with a peak efficiency in the 3 - 79 keV region of the electromagnetic spectrum. The NuSTAR instrument consists of two co-aligned grazing incidence telescopes with specially coated optics and newly developed detectors that extend sensitivity to higher energies as compared to previous missions.  Its temporal resolution (< 0.1ms) allows it to observe very fast transient emissions. Additionally, NuSTAR offers moderate angular resolution (∼ 58′′ half-power diameter) and energy resolution of ∼ 400 eV at 10 keV, making it ideal for studying hard X-ray sources, flaring phenomena, and even diffuse emission in galaxy clusters.',
+    link: 'https://www.nustar.caltech.edu/',
     position: [370, 760],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'Fermi',
-    description: 'Description',
-    link: 'link',
+    description: 'The Fermi Gamma-ray Space Telescope is an international and multi-agency space mission launched in 2008 and used to perform gamma-ray astronomy observations from low Earth orbit. It includes two instruments: the Large Area Telescope (LAT) and the Gamma-ray Burst Monitor (GBM). The LAT is an imaging gamma-ray detector sensitive to photons in the 20 MeV - 300 GeV range, with a field of view of about 20% of the sky, angular resolution of 3.5 degree at 100 MeV and 0.15 degree at 10 GeV, as well as an energy resolution of 10%. The GBM is made of 14 scintillation detectors and can detect gamma ray-bursts in the 8 keV - 30 MeV range across all the sky not occluded by Earth, with an energy resolution better than 10%.',
+    link: 'https://fermi.gsfc.nasa.gov/',
     position: [345, 680],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'Planck',
-    description: 'Description',
-    link: 'link',
+    description: 'Planck was a space observatory operated by the European Space Agency from 2009 to 2013, aiming to map the anisotropies of the CMB at microwave and infrared frequencies, with high sensitivity and angular resolution. In particular, its primary goal was to measure CMB anisotropies at all angular scales larger than 10 arcminutes over the entire sky with a precision of ~2 parts per million. It carried two scientific instruments: the High Frequency Instrument (HFI) and the Low Frequency Instrument (LFI). Both instruments could detect both the total intensity and polarization of photons, and together covered the frequency range from 30 GHz to 857 GHz.',
+    link: 'https://www.esa.int/Science_Exploration/Space_Science/Planck',
     position: [345, 750],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'INTEGRAL',
-    description: 'Description',
-    link: 'link',
+    description: 'The INTErnational Gamma-Ray Astrophysics Laboratory (INTEGRAL) is a space telescope observing gamma rays up to 10 MeV, launched into Earth orbit in 2002 by the European Space Agency, and it is the most sensitive telescope in the MeV range. The spacecraft body is a copy of the XMM-Newton body. INTEGRAL aims to provide imaging and spectroscopy of cosmic sources, through the imager IBIS (Imager on-Board the INTEGRAL Satellite) and the spectrometer SPI (SPectrometer of INTEGRAL). The IBIS is sensitive to photons in the 15 keV - 10 MeV range, with an angular resolution of 12 arcmin. The SPI observes radiation from 20 keV to 8 MeV and the high energy resolution of 2 keV at 1 MeV is able to resolve all candidate gamma-ray lines. These two detectors are supported by two monitor instruments: an X-ray monitor and an optical camera. All the four instruments have large fields-of-view and are co-aligned, which is particularly useful to detect gamma-ray emission from transient sources since they continuously monitor large parts of the sky.',
+    link: 'https://sci.esa.int/web/integral/',
     position: [320, 700],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'XMM-Newton',
-    description: 'Description',
-    link: 'link',
+    description: 'XMM-Newton is an X-ray space observatory launched by the European Space Agency in 1999. It aims to investigate interstellar X-ray sources, performing narrow and broad-range spectroscopy, as well as the first simultaneous imaging of objects in both X-ray and optical wavelengths. The spacecraft can aim at a target with an accuracy of 0.25 to 1 arcseconds. It includes three European Photon Imaging Cameras (EPIC), two Reflection Grating Spectrometers (RGS) and an Optical Monitor (OM). The three EPIC are the primary instruments aboard XMM-Newton, with a total field of view (FOV) of 30 arcminutes and an energy sensitivity between 0.15 keV to 15 keV, and can be used to reconstruct light curves, to develop a visible image of the target and to determine the physical processes occurring at the target. The RGS system, sensitive in the 0.35 keV - 2.5 keV range, is used to build X-ray spectral data and can determine the elements present in the target. The OM is designed to provide simultaneous observations alongside the spacecraft’s X-ray instruments, with an energy sensitivity between 1.9 eV and 7.3 eV and a 17 x 17 arcminute square FOV co-aligned with the center of the X-ray telescope’s FOV.',
+    link: 'https://sci.esa.int/web/xmm-newton/',
     position: [295, 690],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'eROSITA',
-    description: 'Description',
-    link: 'link',
+    description: 'e-ROSITA is the primary instrument on-board the Russian-German ``Spectrum-Roentgen-Gamma’’ (SRG) mission, built by the Max Planck Institute in Germany and launched into Earth orbit in 2019. Originally planned to image the entire sky in the X–ray band for seven years, the instrument stopped collecting data on February 26, 2022, after the Russian invasion of Ukraine. It is sensitive to photons in the energy range 0.3 - 10 keV, with an angular resolution of 15 seconds. It is expected to detect galaxy clusters, active galactic nuclei and stars in the Milky Way and its primary science goal is to measure dark energy through the structure and history of the Universe traced by galaxy clusters.',
+    link: 'https://www.mpe.mpg.de/eROSITA',
     position: [270, 670],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'COBE',
-    description: 'Description',
-    link: 'link',
+    description: 'The Cosmic Background Explorer (COBE) was a NASA satellite dedicated to cosmology, which operated from 1989 to 1993 in order to investigate the cosmic microwave background (CMB) radiation of the universe and provide measurements to understand the cosmo. It included three instruments: the Diffuse Infrared Background Experiment (DIRBE) to search for the cosmic infrared background (CIB) radiation, the Differential Microwave Radiometer (DMR), to map anisotropies in the CMB radiation, and the Far Infrared Absolute Spectrophotometer (FIRAS), to compare the spectrum of the CMB with a precise blackbody. The DIRBE was a cryogenically cooled multiband radiometer used to map dust emission and investigate diffuse infrared radiation from 1 to 300 micrometers, leading to the detection of the CIB. The DMR investigation used three differential radiometers to map the sky at 31.4, 53 and 90 GHz and found that the CMB has intrinsic anisotropy at a level of a part in 100,000. The FIRAS was a cryogenically cooled polarizing Michelson interferometer used as a Fourier transform spectrometer and it observed that the CMB spectrum is that of a nearly perfect blackbody with a temperature of 2.725 +/- 0.002 K.',
+    link: 'https://lambda.gsfc.nasa.gov/product/cobe/',
     position: [270, 780],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'HINODE',
-    description: 'Description',
-    link: 'link',
+    description: 'Hinode is an international mission exploring the magnetic fields of the Sun in order to improve our understanding of what powers the solar atmosphere and drives solar eruptions. By combining observations through the Hinode’s Solar Optical Telescope, the EUV imaging spectrometer (EIS) and the X-Ray/EUV telescope (XRT), the mission aims to understand the causes of eruptions in the solar atmosphere and relate them to the heating of the corona and the mechanism driving the solar wind. Data from the XRT have been used to constrain dark photons in <a href="https://arxiv.org/pdf/2211.00022">[1]</a>.',
+    link: 'https://hinode.msfc.nasa.gov/',
     position: [245, 680],
     color: 'rgba(238,34,13,1)'
   },
   {
     name: 'LISA',
-    description: 'Description',
-    link: 'link',
+    description: 'The Laser Interferometer Space Antenna (LISA) will be a large-scale space mission aiming to detect gravitational waves from astronomical sources. It will be the first space-based gravitational wave observatory and it will consist of three spacecrafts separated by 2.5 million km in a triangular formation, following Earth about 50 million km in its orbit around the Sun. Its launch is expected in 2035. Data taken by LISA Pathfinder, the technology demonstrator for LISA, have been used to constrain ultralight dark matter in <a href="https://arxiv.org/abs/2301.08736">[1]</a> and <a href="https://arxiv.org/abs/2310.06017">[2]</a>.',
+    link: 'https://www.lisamission.org/',
     position: [245, 780],
     color: 'rgba(0, 118, 186, 0.54)'
   },
   {
     name: 'MICROSCOPE',
-    description: 'Description',
-    link: 'link',
+    description: 'The Microsatellite with Compensated Drag for Observing the Principle of Equivalence (MicroSCOPE) is a 300-kilogram class minisatellite operated by a collaboration between the French institutions CNES (National Centre for Space Studies), ONERA (National Office for Aerospace Studies and Research) and OCA (Côte d`Azur Observatory), as well as the German organisations PTB(Physikalisch - Technische Bundesanstalt) and the ZARM laboratory of the  University of Bremen.It was launched in April 2016 in order to test the Weak Equivalence Principle(WEP) and it was decommissioned in October 2018 after successfully testing the WEP to  an accuracy of the order of 10<sup>-14</sup>. Data from MICROSCOPE has been used to constrain scalar interactions with SM particles as well as the B - L vector coupling.',
+    link: 'https://directory.eoportal.org/satellite-missions/microscope#mission-capabilities',
     position: [220, 680],
     color: 'rgba(0, 118, 186, 1)'
   },
