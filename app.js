@@ -719,14 +719,14 @@ const experiments = [
     name: 'Fermi',
     description: 'The Fermi Gamma-ray Space Telescope is an international and multi-agency space mission launched in 2008 and used to perform gamma-ray astronomy observations from low Earth orbit. It includes two instruments: the Large Area Telescope (LAT) and the Gamma-ray Burst Monitor (GBM). The LAT is an imaging gamma-ray detector sensitive to photons in the 20 MeV - 300 GeV range, with a field of view of about 20% of the sky, angular resolution of 3.5 degree at 100 MeV and 0.15 degree at 10 GeV, as well as an energy resolution of 10%. The GBM is made of 14 scintillation detectors and can detect gamma ray-bursts in the 8 keV - 30 MeV range across all the sky not occluded by Earth, with an energy resolution better than 10%.',
     link: 'https://fermi.gsfc.nasa.gov/',
-    position: [345, 710],
+    position: [345, 720],
     color: 'rgba(29,177,0,0.54)'
   },
   {
     name: 'Planck',
     description: 'Planck was a space observatory operated by the European Space Agency from 2009 to 2013, aiming to map the anisotropies of the CMB at microwave and infrared frequencies, with high sensitivity and angular resolution. In particular, its primary goal was to measure CMB anisotropies at all angular scales larger than 10 arcminutes over the entire sky with a precision of ~2 parts per million. It carried two scientific instruments: the High Frequency Instrument (HFI) and the Low Frequency Instrument (LFI). Both instruments could detect both the total intensity and polarization of photons, and together covered the frequency range from 30 GHz to 857 GHz.',
     link: 'https://www.esa.int/Science_Exploration/Space_Science/Planck',
-    position: [345, 780],
+    position: [345, 790],
     color: 'rgba(29,177,0,0.54)'
   },
   {
@@ -740,7 +740,7 @@ const experiments = [
     name: 'XMM-Newton',
     description: 'XMM-Newton is an X-ray space observatory launched by the European Space Agency in 1999. It aims to investigate interstellar X-ray sources, performing narrow and broad-range spectroscopy, as well as the first simultaneous imaging of objects in both X-ray and optical wavelengths. The spacecraft can aim at a target with an accuracy of 0.25 to 1 arcseconds. It includes three European Photon Imaging Cameras (EPIC), two Reflection Grating Spectrometers (RGS) and an Optical Monitor (OM). The three EPIC are the primary instruments aboard XMM-Newton, with a total field of view (FOV) of 30 arcminutes and an energy sensitivity between 0.15 keV to 15 keV, and can be used to reconstruct light curves, to develop a visible image of the target and to determine the physical processes occurring at the target. The RGS system, sensitive in the 0.35 keV - 2.5 keV range, is used to build X-ray spectral data and can determine the elements present in the target. The OM is designed to provide simultaneous observations alongside the spacecraft’s X-ray instruments, with an energy sensitivity between 1.9 eV and 7.3 eV and a 17 x 17 arcminute square FOV co-aligned with the center of the X-ray telescope’s FOV.',
     link: 'https://sci.esa.int/web/xmm-newton/',
-    position: [295, 720],
+    position: [295, 730],
     color: 'rgba(29,177,0,0.54)'
   },
   {
@@ -810,7 +810,7 @@ const experiments = [
     name: 'GECCO',
     description: 'The Galactic Explorer with a Coded Aperture Mask Compton Telescope (GECCO) is a next-generation telescope concept designed to explore the poorly studied MeV photon energy range. By combining the precise angular resolution of a coded aperture mask with the sensitivity of a Compton telescope, GECCO aims to resolve discrete sources from diffuse gamma-ray emissions. This enables the study of key phenomena such as the Galactic center excess, Fermi Bubbles, and low-energy cosmic rays, as well as the detection of nuclear and annihilation lines. Additionally, it facilitates multi-messenger astrophysics by observing transient gamma-ray sources linked to gravitational waves and neutrinos, opening new avenues for discoveries in fundamental physics and galaxy evolution. Finally, it could study scalar or vector dark matter signals.',
     link: 'https://iopscience.iop.org/article/10.1088/1475-7516/2022/07/036',
-    position: [295, 645],
+    position: [295, 635],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
@@ -824,21 +824,21 @@ const experiments = [
     name: 'Comptel',
     description: 'Operational on the Compton Gamma Ray Observatory from 1991 to 2000, COMPTEL mapped the gamma-ray sky in the energy range of 0.75–30 MeV. It provided significant insights into gamma-ray bursts, pulsars, and galactic phenomena. ',
     link: 'https://heasarc.gsfc.nasa.gov/docs/cgro/comptel/',
-    position: [255, 645],
+    position: [255, 472],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
     name: 'AMEGO',
     description: 'AMEGO (All-sky Medium Energy Gamma-ray Observatory) is a proposed mission to study gamma rays in the 0.2 MeV to 10 GeV range. It aims to understand astrophysical phenomena like black hole jets and neutron star mergers, as well as explore dark matter signals.',
     link: 'https://asd.gsfc.nasa.gov/amego/',
-    position: [345, 680],
+    position: [345, 635],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
     name: 'e-ASTROGRAM',
     description: 'The enhanced ASTROGAM (e-ASTROGAM) is a proposed space observatory designed to study the non-thermal universe in the photon energy range of 0.3 MeV to 3 GeV, with extended detection capabilities down to 30 keV. Utilizing advanced detector technology, including a silicon tracker and calorimeter, e-ASTROGAM offers unprecedented sensitivity, angular and energy resolution, and polarimetric capabilities. This mission will provide groundbreaking insights into the origins of relativistic outflows, key isotopes from supernova explosions, and the chemical evolution of the Galaxy, while complementing other observatories like LIGO, JWST, and IceCube in multi-messenger astronomy. Its improved MeV sensitivity surpasses previous instruments by one to two orders of magnitude, making it a vital tool for understanding cosmic phenomena​.',
     link: 'https://www.sciencedirect.com/science/article/pii/S2214404818300168?via%3Dihub',
-    position: [400, 680],
+    position: [400, 675],
     color: 'rgba(0, 118, 186, 1)'
   }
   // Add more experiments as needed
