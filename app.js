@@ -824,7 +824,7 @@ const experiments = [
     name: 'Comptel',
     description: 'Operational on the Compton Gamma Ray Observatory from 1991 to 2000, COMPTEL mapped the gamma-ray sky in the energy range of 0.75–30 MeV. It provided significant insights into gamma-ray bursts, pulsars, and galactic phenomena. ',
     link: 'https://heasarc.gsfc.nasa.gov/docs/cgro/comptel/',
-    position: [255, 472],
+    position: [260, 477],
     color: 'rgba(0, 118, 186, 1)'
   },
   {
