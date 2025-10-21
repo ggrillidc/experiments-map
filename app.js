@@ -282,6 +282,13 @@ const experiments = [
     color: 'rgba(29,177,0,0.54)'
   },
   {
+    name: 'DALI',
+    description: 'DALI is a next-generation haloscope based on a new magnetized phased-array (MPA) concept. It is designed to achieve QCD-level sensitivity to axion dark matter in the 25-400 μeV range (~6-100 GHz), while also enabling ultrasensitive searches for dark photon dark matter and high-frequency gravitational waves. This MPA haloscope, to be hosted at the Instituto de Astrofísica de Canarias (IAC), Spain, is currently in its prototyping phase.',
+    link: 'https://www.iac.es/en/projects/dali ',
+    position: [-90, -170],
+    color: 'rgba(29,177,0,1)'
+  },
+  {
     name: 'NASDUCK',
     description: 'The NASDUCK (Noble and Alkali Spin Detectors for Ultralight Coherent Dark Matter) collaboration uses quantum magnetometers to detect ultralight dark matter, particularly axion-like particles (ALPs). ALPs can induce small oscillations in magnetic fields, which NASDUCK measures using a combination of potassium vapor and helium gas in a spin-exchange optical-pumping process. This technique enables some of the most stringent terrestrial constraints on ultralight axions.',
     link: 'https://arxiv.org/pdf/2209.13588',
