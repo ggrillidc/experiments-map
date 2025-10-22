@@ -872,71 +872,55 @@ const imageUrl = 'Wavy_Map.png';
 const imageBounds = [[-500, -900], [500, 900]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
+// Store marker references for later updates
+const markers = [];
+
+function getFontSize(zoom) {
+  const baseZoom = 0;       
+  const baseSize = 20;       
+  const scale = Math.pow(2, zoom - baseZoom);
+  return baseSize * scale;
+}
+
+// Function to create a bold, colored text marker with dynamic font size
+function createColoredTextMarker(text, color, zoom) {
+  const fontSize = getFontSize(zoom);
+  const iconStyle = `
+    color: ${color};
+    font-size: ${fontSize}px;
+    font-family: Graphik-Bold, sans-serif;
+    white-space: nowrap;
+    text-shadow: 1px 1px 2px white;
+  `;
+  return L.divIcon({
+    html: `<span style="${iconStyle}">${text}</span>`,
+    className: 'colored-text-marker',
+  });
+}
+
 // Add custom markers for each experiment
 experiments.forEach((experiment, index) => {
-  const markerPosition = experiment.position;//getRandomLatLng()
-  const coloredTextMarker = createColoredTextMarker(experiment.name, experiment.color);
+  const markerPosition = experiment.position;
+  const coloredTextMarker = createColoredTextMarker(experiment.name, experiment.color, map.getZoom());
 
-  // Create a marker with a custom HTML element as its content
   const marker = L.marker(markerPosition, { opacity: 1.0, icon: coloredTextMarker }).addTo(map);
-  marker.bindPopup(`<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`);
+  marker.bindPopup(
+    `<b>${experiment.name}</b><br>${experiment.description}<br><a href="${experiment.link}" target="_blank">Experiment Page</a>`
+  );
 
-  // Add MathJax LaTeX formula to the popup description
-  // const popupContent = `
-  //   <b>${experiment.name}</b><br>
-  //   ${experiment.description}<br>
-  //   <a href="${experiment.link}" target="_blank">Experiment Page</a>
-  // `;
-
-  // // Bind the popup and trigger MathJax rendering
-  // marker.bindPopup(popupContent).on('popupopen', () => {
-  //   MathJax.typeset(); // Render LaTeX when the popup opens
-  // });
+  markers.push({ marker, experiment });
 });
-
-// Add a grid overlay
-// addGridOverlay(map);
 
 console.log('Markers added...');
 
-// Function to generate random coordinates for markers
-function getRandomLatLng() {
-  const lat = (Math.random() * 1080) - 540;
-  const lng = (Math.random() * 1920) - 960;
-  return [lat, lng];
-}
-
-// Function to create a bold, colored text marker with fixed font size and type
-function createColoredTextMarker(text, color) {
-  const iconStyle = `color: ${color}; font-size: 20px; font-family: Graphik-Bold, sans-serif; white-space: nowrap`;
-  return L.divIcon({ html: `<span style="${iconStyle}">${text}</span>`, className: 'colored-text-marker' });
-}
-
-// Function to add a grid overlay
-// function addGridOverlay(map) {
-// Define the grid lines
-// const gridLines = [];
-
-// Vertical lines
-// for (let x = -900; x <= 900; x += 50) {
-//   const line = [[-500, x], [500, x]];
-//   gridLines.push(line);
-// }
-
-// Horizontal lines
-// for (let y = -500; y <= 500; y += 50) {
-//   const line = [[y, -900], [y, 900]];
-//   gridLines.push(line);
-// }
-
-// Add the grid to the map
-//   gridLines.forEach(line => {
-//     L.polyline(line, { color: 'gray', weight: 1 }).addTo(map);
-//   });
-// }
-
-// Function to show experiment details
-function showExperimentDetails(index) {
-  const experiment = experiments[index];
-  alert(`Experiment Name: ${experiment.name}\nDescription: ${experiment.description}\nLink: ${experiment.link}`);
-}
+// Update marker label size on zoom
+map.on('zoomend', () => {
+  const zoom = map.getZoom();
+  markers.forEach(({ marker, experiment }) => {
+    const el = marker.getElement();
+    if (el) {
+      const fontSize = getFontSize(zoom);
+      el.querySelector('span').style.fontSize = `${fontSize}px`;
+    }
+  });
+});
